@@ -1,0 +1,176 @@
+[user]
+	name = Alf
+	email = alf@drollinger.info
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	whitespace = trailing-space, space-before-tab, -indent-with-non-tab, cr-at-eol
+	quotepath = false
+	autocrlf = false
+	safecrlf = false
+	fileMode = false
+[apply]
+	whitespace = nowarn
+[color]
+	ui = auto
+	wtf = true
+[color "diff"]
+	old = bold red
+	new = bold green
+	meta = bold yellow
+[color "branch"]
+	current = bold green
+	local = green
+	remote = red
+	upstream = bold red
+	plain = bold yellow
+[color "status"]
+	added = bold red
+	changed = bold green
+	untracked = bold cyan
+	nobranch = red reverse
+[color "interactive"]
+	prompt = bold blue
+	error = bold red
+[branch]
+	autoSetupMerge = true
+	autoSetupRebase = always
+[svn]
+	rmdir = true
+	findcopiesharder = true
+[clean]
+	requireForce = false
+[rerere]
+	enabled = false
+	autoupdate = true
+[push]
+	default = simple
+	followTags = true
+[status]
+	#submodulesummary = true
+[rebase]
+	autoSquash = true
+[stash]
+	showPatch = true
+[commit]
+	verbose = true
+[core]
+	whitespace = trailing-space, space-before-tab, -indent-with-non-tab, cr-at-eol
+	quotepath = false
+	autocrlf = false
+	safecrlf = false
+	fileMode = false
+	editor = 'D:/PortableApps/PortableApps/Notepad++Portable/App/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+[alias]
+	aac = !sh -c 'git add --all && git commit -m \"$1\"' -
+	aacp = !sh -c 'git add --all && git commit -m \"$1\" && git push' -
+	aucp = !sh -c 'git add --update && git commit -m \"$1\" && git push' -
+	ff = merge --no-ff
+	ga = log --graph --oneline --decorate --all
+	gb = log --graph --all --decorate --branches -30
+	k = !gitk --all & --all &
+	l = log -10 --pretty=format:\"%h | %an | %ar | %s\"
+	ll = !sh -c 'git log -\"$1\" --pretty=format:\"%h | %an | %ar | %s\"' -
+	mebranch = !sh -c 'git checkout develop && git pull --ff-only && git checkout \"$1\" && git pull --ff-only && git merge --ff-only develop' -
+	medev = !sh -c 'git fetch && git merge origin/develop' -
+	p = pull
+	pac = !sh -c 'git push --set-upstream origin \"${1-HEAD}\"' -
+	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
+	rpo = remote prune origin
+	aliases = config --get-regexp ^alias\\.
+	
+	s = status
+	
+	# Set executable bit on file systems that do not support it.
+	set-x   = update-index --chmod=+x
+	unset-x = update-index --chmod=-x
+	
+	# Temporarily ignoring files.
+	ignore     = update-index --assume-unchanged
+	unignore   = update-index --no-assume-unchanged
+	ignored    = !git ls-files -v | grep ^h | cut --characters=3-
+	
+	gitignored = ls-files --others --directory --ignored --exclude-standard
+	
+	# git commit.
+	ci   = commit
+	cim  = commit --message
+	cima = commit --all --message
+	
+	# Correcting commits.
+	amend  = commit --amend --no-edit
+	reword = commit --amend --message
+	aua    = commit --amend --no-edit --all
+	aaa    = !git add --all && git commit --amend --no-edit
+	fixup  = commit --fixup
+	undo   = reset HEAD~1
+	rh     = reset --hard
+	
+	# Index-related commands.
+	a       = add
+	au      = add --update
+	aa      = add --all
+	ap      = add --patch
+	cop     = checkout --patch
+	rp      = reset HEAD --patch
+	unstage = reset HEAD
+	
+	# git branch and remote.
+	co  = checkout
+	b   = branch
+	brs = branch --all --verbose
+	
+	# git remote.
+	rv = remote --verbose
+	pf = push --force
+	
+	# git rebase.
+	r  = rebase --interactive
+	rc = rebase --continue
+	ra = rebase --abort
+	
+	# git diff.
+	d       = diff
+	wd      = diff --word-diff
+	dt      = difftool
+	
+	dc      = diff --staged
+	wdc     = diff --staged --word-diff
+	preview = diff --staged
+	
+	# Handling merges.
+	mt        = mergetool
+	unresolve = checkout --conflict=merge
+	
+	# git log.
+	#ll   = log
+	#l    = log --oneline --max-count=15
+	ld   = log --oneline --max-count=15 --decorate
+	lp   = log --patch
+	gl   = log --graph --oneline --decorate --branches --all
+	glog = log --graph --oneline --decorate --branches --all
+	# Mnemomic: who did what?
+	wdw  = log --date=relative --pretty='format:%C(yellow)%h%Creset %C(bold blue)%an%Creset %C(bold green)%cr%Creset %s'
+	
+	# Reviewing patches.
+	review       = log --patch --max-count=1
+	reviewwd     = log --patch --word-diff --max-count=1
+	reviewf      = log --name-only --max-count=1
+	most-changed = !git log --format=%n --name-only | grep -v '^$' | sort | uniq --count | sort --numeric-sort --reverse | head --lines=50
+	
+	# git cherry-pick.
+	pick = cherry-pick
+	
+	# git clean.
+	cleanf = clean -xdf
+	
+	# Disable pager.
+	np = !git --no-pager
+	dp = !git -c pager.show='less -FRX' -c pager.log='less -FRX' -c pager.diff='less -FRX'
+[credential]
+	helper = manager
+[winUpdater]
+	recentlySeenVersion = 2.23.0.windows.1
