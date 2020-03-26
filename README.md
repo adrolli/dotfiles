@@ -12,3 +12,9 @@ If you work with PHP and specially Laravel on a Mac take a look at https://githu
 If you want to see some extra-organized sets of dotfiles, see https://github.com/mathiasbynens/dotfiles or https://github.com/holman/dotfiles.
 
 If you think "what the heck are dotfiles?", read https://driesvints.com/blog/getting-started-with-dotfiles/ and https://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/.
+
+## Todo
+
+- Directly SSH in Microsoft Terminal
+- Push my aliases
+- Script the installation on Windows
