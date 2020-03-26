@@ -18,3 +18,4 @@ If you think "what the heck are dotfiles?", read https://driesvints.com/blog/get
 - Directly SSH in Microsoft Terminal
 - Push my aliases
 - Script the installation on Windows
+- Add my Docker-defaults
