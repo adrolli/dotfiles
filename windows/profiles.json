@@ -30,8 +30,8 @@
                 "hidden": false
             },
 		   {
-				"guid": "{00000000-0000-0000-ba54-000000000002}",
-				"acrylicOpacity" : 0.75,
+                "guid": "{00000000-0000-0000-ba54-000000000002}",
+                "acrylicOpacity" : 0.9,
 				"closeOnExit" : true,
 				"colorScheme" : "Campbell",
 				"commandline" : "\"%USERPROFILE%\\AppData\\Local\\Programs\\git\\usr\\bin\\bash.exe\" -i -l",
@@ -39,13 +39,66 @@
 				"cursorShape" : "bar",
 				"fontFace" : "Consolas",
 				"fontSize" : 10,
-				"historySize" : 9001,
-				"icon" : "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "historySize" : 9001,
+                // Download icons and change path
+				"icon" : "d:\\dev\\icons\\git-orange.png",
 				"name" : "Git Bash",
-				"padding" : "0, 0, 0, 0",
-				"snapOnInput" : true,
-				"startingDirectory" : "D:/dev/repos",
-				"useAcrylic" : true
+				"padding" : "10, 0, 0, 0",
+                "snapOnInput" : true,
+                // Change path to fit your needs
+                "startingDirectory" : "D:/dev/repos",
+                // Create a background and change path
+                "backgroundImage": "D:/dev/icons/background.png",
+                "backgroundImageOpacity": 0.3,
+                "useAcrylic" : true
+            },
+            {
+                "guid": "{72017f5a-ecfe-498f-b6f1-93ac771223e1}",
+                "acrylicOpacity" : 0.9,
+				"closeOnExit" : true,
+				"colorScheme" : "Campbell",
+				"commandline" : "\"%USERPROFILE%\\AppData\\Local\\Programs\\git\\usr\\bin\\bash.exe\" -c \"ssh -i ~your.username/.azure/id_rsa linuxuser@servername.westeurope.cloudapp.azure.com\"",
+				"cursorColor" : "#FFFFFF",
+				"cursorShape" : "bar",
+				"fontFace" : "Consolas",
+				"fontSize" : 10,
+                "historySize" : 9001,
+                // Download icons and change path
+                "icon" : "d:\\dev\\icons\\azure.png",
+				"name" : "Server on Azure",
+				"padding" : "10, 0, 0, 0",
+                "snapOnInput" : true,
+                // Change path to fit your needs
+                "startingDirectory" : "D:/dev/azure",
+                // Create a background and change path
+                "backgroundImage": "D:/dev/icons/background.png",
+                "backgroundImageOpacity": 0.3,
+                "useAcrylic" : true
+            },
+            {
+                "guid": "{72017f5a-ecfe-498f-b6f1-93ac771223e2}",
+                "acrylicOpacity" : 0.9,
+				"closeOnExit" : true,
+				"colorScheme" : "Campbell",
+				"commandline" : "\"%USERPROFILE%\\AppData\\Local\\Programs\\git\\usr\\bin\\bash.exe\" -c \"ssh ssh-user@ssh-server.url\"",
+				"cursorColor" : "#FFFFFF",
+				"cursorShape" : "bar",
+				"fontFace" : "Consolas",
+				"fontSize" : 10,
+                "historySize" : 9001,
+                // Download icons and change path, 
+                // .ico does not render very sharp but it works
+				"icon" : "d:\\dev\\icons\\df.ico",
+				"name" : "DomainFactory Server",
+				"padding" : "10, 0, 0, 0",
+                "snapOnInput" : true,
+                // Change path to fit your needs
+                "startingDirectory" : "D:/dev/azure",
+                // Create a background and change path
+                "backgroundImage": "D:/dev/icons/background.png",
+                "backgroundImageAlignment": "bottomRight",
+                "backgroundImageOpacity": 0.3,
+                "useAcrylic" : true
 			},
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -57,6 +110,8 @@
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
+                // Download icons and change path
+				"icon" : "d:\\dev\\icons\\ubuntu.png",
                 "source": "Windows.Terminal.Wsl"
             }
         ]
