@@ -1,0 +1,64 @@
+#!/bin.bash
+
+# this is my updater. before running it, remove or add things to update on your Mac, so it will fit your needs.
+
+# do some nice ascii art thing
+echo ' '
+echo ' '
+echo '            _              _    _       '     
+echo '           ( )            (_ ) (_ )  _  '
+echo '   _ _    _| | _ __   _    | |  | | (_) '
+echo ' / _  ) / _  |(  __)/ _ \  | |  | | | | '
+echo '( (_| |( (_| || |  ( (_) ) | |  | | | | '
+echo '`\__,_) \__,_)(_)   \___/ (___)(___)(_) '
+echo ' '                                       
+echo 'You are running the adrolli Mac updater.'
+echo 'This will update many things.'
+echo 'Use it at your own risk!'
+echo ' '
+
+# make sure we are able to do things
+sudo -v
+echo ' '
+
+# stop services (valet runs with sudo!)
+echo 'Stop services'
+echo '-------------'
+brew services stop php
+sudo brew services stop nginx
+sudo brew services stop dnsmasq
+
+# Update Homebrew - https://brew.sh
+echo 'Self-update Homebrew'
+echo '--------------------'
+brew update
+# Update all casks and formulas
+echo 'Update all things'
+echo '-----------------'
+brew upgrade
+# Show all outdated casks and formulas
+echo 'Anything outdated?'
+echo '------------------'
+brew outdated 
+# Cleanup
+echo 'Cleanup Homebrew'
+echo '----------------'
+brew cleanup
+# List all services
+echo 'List all things'
+echo '---------------'
+brew list
+
+# Start services (valet runs with sudo!)
+echo 'Start services'
+echo '--------------'
+brew services start php
+sudo brew services start nginx
+sudo brew services start dnsmasq
+
+# Update Laravel Valet - https://laravel.com/docs/valet'
+echo 'Update Laravel Valet'
+echo '--------------------'
+composer global require laravel/valet
+valet install
+

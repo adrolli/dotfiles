@@ -1,0 +1,129 @@
+#!/bin.bash
+
+# this is my installer. before running it, remove or add things to install on your Mac, so it will fit your needs.
+
+# do some nice ascii art thing
+echo ' '
+echo ' '
+echo '            _              _    _       '     
+echo '           ( )            (_ ) (_ )  _  '
+echo '   _ _    _| | _ __   _    | |  | | (_) '
+echo ' / _  ) / _  |(  __)/ _ \  | |  | | | | '
+echo '( (_| |( (_| || |  ( (_) ) | |  | | | | '
+echo '`\__,_) \__,_)(_)   \___/ (___)(___)(_) '
+echo ' '                                       
+echo 'You are running the adrolli Mac installer.'
+echo 'This will install many things.'
+echo 'Use it at your own risk!'
+echo ' '
+
+# make sure we are able to do things
+sudo -v
+echo ' '
+
+# Hide "last login" line when starting a new terminal session
+touch $HOME/.hushlogin
+echo ' '
+
+# Install Homebrew - https://brew.sh
+echo 'Install Homebrew - https://brew.sh'
+echo '----------------------------------'
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/alfdrollinger/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/alfdrollinger/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+echo ' '
+
+# Install Oh My Zsh - https://ohmyz.sh
+echo 'Install Oh My Zsh - https://ohmyz.sh'
+echo '------------------------------------'
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo ' '
+
+# Install NodeJS - https://nodejs.org
+echo 'Install NodeJS - ttps://nodejs.org'
+echo '----------------------------------'
+brew install node
+echo ' '
+
+# Install PHP latest - https://php.net
+echo 'Install PHP latest - https://php.net'
+echo '------------------------------------'
+brew install php
+echo ' '
+
+# Install Composer - https://getcomposer.org
+echo 'Install Composer - https://getcomposer.org'
+echo '------------------------------------------'
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+mkdir -p /usr/local/bin
+sudo mv composer.phar /usr/local/bin/composer
+export PATH=$PATH:~/.composer/vendor/bin
+echo ' '
+
+# Install Laravel Valet - https://laravel.com/docs/valet
+echo 'Install Laravel Valet - https://laravel.com/docs/valet'
+echo '------------------------------------------------------'
+composer global require laravel/valet
+valet install
+sudo valet trust
+echo ' '
+
+# Install PHP Monitor - https://github.com/nicoverbruggen/phpmon
+echo 'Install PHP Monitor - https://github.com/nicoverbruggen/phpmon'
+echo '--------------------------------------------------------------'
+brew tap nicoverbruggen/homebrew-cask
+brew install --cask phpmon
+sudo chown "$(whoami)" /usr/local/bin
+echo ' '
+
+# Install Google Chrome - https://www.google.com/chrome
+echo 'Install Google Chrome - https://www.google.com/chrome'
+echo '-----------------------------------------------------'
+brew install --cask google-chrome
+echo ' '
+
+# Install DBngin - https://dbngin.com
+echo 'Install DBngin - https://dbngin.com'
+echo '-----------------------------------'
+brew install --cask dbngin
+echo ' '
+
+# Install TablePlus - https://tableplus.com
+echo 'Install TablePlus - https://tableplus.com'
+echo '-----------------------------------------'
+brew install --cask tableplus
+echo ' '
+
+# Install Visual Studio Code - https://code.visualstudio.com
+echo 'Install Visual Studio Code - https://code.visualstudio.com'
+echo '----------------------------------------------------------'
+brew install --cask visual-studio-code
+echo ' '
+
+# Install Typora - https://typora.io
+echo 'Install Typora - https://typora.io'
+echo '----------------------------------'
+brew install --cask typora
+echo ' '
+
+# Install Github Desktop - https://desktop.github.com
+echo 'Install Github Desktop - https://desktop.github.com'
+echo '---------------------------------------------------'
+brew install --cask github
+echo ' '
+
+# Install iTerm2 - https://iterm2.com
+echo 'Install iTerm2 - https://iterm2.com'
+echo '-----------------------------------'
+brew install --cask iterm2
+echo ' '
+
+# Install MacPass - https://macpassapp.org
+echo 'Install MacPass - https://macpassapp.org'
+echo '----------------------------------------'
+brew install --cask macpass
+echo ' '
