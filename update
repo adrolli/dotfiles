@@ -62,3 +62,7 @@ echo '--------------------'
 composer global require laravel/valet
 valet install
 
+# Update my Aliases
+echo 'Update my Aliases'
+echo '-----------------'
+cp ~/Documents/GitHub/dotfiles/macos/aliases.zsh ~/.oh-my-zsh/custom

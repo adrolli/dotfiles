@@ -127,3 +127,8 @@ echo 'Install MacPass - https://macpassapp.org'
 echo '----------------------------------------'
 brew install --cask macpass
 echo ' '
+
+# Install my Aliases
+echo 'Update my Aliases'
+echo '-----------------'
+cp ~/Documents/GitHub/dotfiles/macos/aliases.zsh ~/.oh-my-zsh/custom

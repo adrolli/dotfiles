@@ -14,10 +14,12 @@ This is my very own list of MacOS keyboard shortcuts. I will add custom keybindi
 - <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>´</kbd> to switch between open documents in Typora
 - <kbd>Command</kbd> + <kbd><</kbd> to switch between open Finder windows
 - <kbd>Control</kbd> + Click to make a "right mouse click"
+- <kbd>Control</kbd> + <kbd>C</kbd> to stop a process in Terminal
 - <kbd>Option</kbd> + <kbd>N</kbd> to type a ~ (tilde)
 - <kbd>Option</kbd> + <kbd>7</kbd> to type a | (pipe)
 - <kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>7</kbd> to type a \ (backslash)
 - <kbd>Shift</kbd> + <kbd>Command</kbd> + <kbd>3</kbd> to make a full size screenshot
 - <kbd>Shift</kbd> + <kbd>Command</kbd> + <kbd>4</kbd> to start making a custom screenshot, <kbd>Space</kbd> to shot the active window
+- <kbd>Shift</kbd> + <kbd>Command</kbd> + <kbd>5</kbd> to make a custom screenshot, too
 
 See https://support.apple.com/de-de/HT201236 for more
