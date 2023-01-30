@@ -98,7 +98,7 @@ If you think "what the heck are dotfiles?", read https://driesvints.com/blog/get
 - Teamviewer - Brew
 
 
-
+- Try https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais
 
 
 ```php
