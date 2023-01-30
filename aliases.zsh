@@ -1,11 +1,11 @@
 # Custom @adrolli
-alias upd="zsh ~/Documents/GitHub/dotfiles/macos/update"
-alias ins="zsh ~/Documents/GitHub/dotfiles/macos/install"
-alias bak="zsh ~/Documents/GitHub/dotfiles/macos/backup"
+alias upd="zsh ~/Documents/GitHub/dotfiles/update"
+alias ins="zsh ~/Documents/GitHub/dotfiles/install"
 alias h="cd ~"
 alias gh="cd ~/Documents/GitHub"
 alias o="cd ~/OneDrive"
 alias tui="cd ~/Documents/GitHub/tallui"
+alias ty="open -a typora"
 
 # Linux, MacOS
 alias l="ls -lAFh"

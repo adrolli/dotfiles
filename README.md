@@ -1,4 +1,32 @@
-# dotfiles
+# adrolli's dotfiles
+
+I am a web developer preferably working with Laravel and the TALL-Stack using a MacBook Pro 16 running on MacOS Ventura.
+
+My setup is optimized for mobile productivity. I use an iPad Pro as second screen, a Twelve South Curve Flex desktop stand, a Twelve South Hover Bar Duo for the iPad, and the Apple Magic Keyboard and Mouse. All these things fit in my Osprey Backpack.
+
+## Dotfiles?
+
+OK, but what is this repo for?
+
+Working with the Terminal, VS Code and some other software is more efficent, if you prepare your machine with some shortcuts like aliases, keybindings etc. Another good thing is to have commands that help you to keep your machine up to date or reinstall everthing on a new Mac without pain.
+
+- .gitconfig is my Git configuration
+- Aliases.md is the readme file to remember my aliases
+- aliases.zsh are my aliases, copied to the ZSH Custom folder
+- install is my install script, it will install a lot of tools
+- README.md is the file you are currently reading
+- Shortcuts.md is the readme file to remember my keybindings
+- update is my update script, that will keep my mac up to date
+
+As you probably see, this dotfiles-repo uses the KISS-approach, simple and stupid.
+
+## Installation
+
+Clone the repo and run the install shell script or if you're on a new Mac, just run
+
+```
+install --freh
+```
 
 ## More .files
 
@@ -8,13 +36,6 @@ If you want to see some extra-organized sets of dotfiles, see https://github.com
 
 If you think "what the heck are dotfiles?", read https://driesvints.com/blog/getting-started-with-dotfiles/ and https://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/.
 
-
-
-I use a MacBook Pro 16 with M1 Max / 32 GB / 2 TB running on MacOS Ventura.
-
-My setup is also optimized for mobile productivity as a digital nomad. Means, I use the MacBook Screen, an iPad Pro as second screen.
-
-This are my settings, apps and configurations.
 
 ### Mac Settings
 
@@ -112,19 +133,3 @@ Mostly used as second screen for my mobile dual screen setup with Sidecar, https
 - Sparkasse, Paypal
 - Passwordmanager with 2-FA - [Keepassium](https://apps.apple.com/de/app/keepassium-keepass-passwords/id1435127111)
 
-
-
-## Apple Watch
-
-- Swyx
-- Outlook?
-
-
-
-## Apple Mobile Desktop
-
-- Twelve South Curve Flex - a foldable desktop stand for ergonomic working
-- Twelve South Hover Bar Duo - a foldable destop stand for using the iPad as second screen
-- Apple Magic Keyboard and Mouse - without numeric keyboard, fits in my backpack
-- Osprey Arcane Large Day - backpacks everything together
-- Apple AirPods - Music and calls

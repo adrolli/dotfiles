@@ -1,6 +1,6 @@
 #!/bin.bash
 
-# this is my installer. before running it, remove or add things to install on your Mac, so it will fit your needs.
+# this is my install script. before running it, remove or add things to install on your Mac, so it will fit your needs.
 
 # do some nice ascii art thing
 echo ' '
@@ -131,4 +131,4 @@ echo ' '
 # Install my Aliases
 echo 'Update my Aliases'
 echo '-----------------'
-cp ~/Documents/GitHub/dotfiles/macos/aliases.zsh ~/.oh-my-zsh/custom
+cp ~/Documents/GitHub/dotfiles/aliases.zsh ~/.oh-my-zsh/custom
