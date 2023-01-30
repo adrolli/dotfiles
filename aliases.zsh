@@ -16,13 +16,6 @@ alias rm="rm -f"
 alias p="php"
 alias pv="php -v"
 
-# Composer - https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/composer
-alias c="composer"
-alias cu="composer update"
-alias cr="composer require"
-alias ci="composer install"
-alias cda="composer dump-autoload -o"
-
 # Laravel - https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/laravel
 alias pa="php artisan"
 alias pas="php artisan serve"
@@ -53,14 +46,24 @@ alias paqr="php artisan queue:retry"
 alias paqt="php artisan queue:table"
 alias paqw="php artisan queue:work"
 
+# Composer - https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/composer
+alias c="composer"
+alias cu="composer update"
+alias cr="composer require"
+alias ci="composer install"
+alias cda="composer dump-autoload -o"
+# ...
+
+
+
 # Git, GitHub
 
 
 # Node, NPM
 
 
-# VSCode
+# VSCode - https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vscode
 
 
-# Brew, Homebrew
+# Brew, Homebrew - https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew
 

@@ -37,7 +37,7 @@ If you want to see some extra-organized sets of dotfiles, see https://github.com
 If you think "what the heck are dotfiles?", read https://driesvints.com/blog/getting-started-with-dotfiles/ and https://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/.
 
 
-### Mac Settings
+## Mac Settings
 
 - Appearance -> Dark, Multicolor
 
@@ -60,7 +60,7 @@ If you think "what the heck are dotfiles?", read https://driesvints.com/blog/get
 
   
 
-### Software
+## Software
 
 - Microsoft 365 from App Store (Word, Excel, Outlook, Powerpoint, OneNote and OneDrive), Connect to OneDrive
 - [Adobe Creative Cloud](https://www.adobe.com/) (Photoshop, Illustrator, InDesign, Premiere, AfterEffects, Lightroom Classic, Acrobat, XD, Media Encoder)
@@ -78,7 +78,7 @@ If you think "what the heck are dotfiles?", read https://driesvints.com/blog/get
 
 
 
-### Next
+## Todo
 
 - https://github.com/rxhanson/Rectangle - Brew, Window Manager
 - Alfred - https://www.alfredapp.com/ - Brew it a shot
@@ -99,15 +99,16 @@ If you think "what the heck are dotfiles?", read https://driesvints.com/blog/get
 
 
 - Try https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais
+- Try https://github.com/pi-hole/pi-hole
+- Try https://github.com/nvbn/thefuck
+
+- Try https://www.codeweavers.com/crossover with comWORK
 
 
 ```php
 alias c='/usr/local/bin/composer'
 alias ll="ls -lah"
 ```
-
-
-
 
 
 ### Inspiration

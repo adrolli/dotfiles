@@ -1,6 +1,6 @@
 # Shortcuts
 
-This is my very own list of MacOS keyboard shortcuts. I will add custom keybindings soon.
+This is my very own list of MacOS keyboard shortcuts. I will add custom keybindings very soon.
 
 - <kbd>Command</kbd> + <kbd>Backspace</kbd> to Delete files
 - <kbd>Command</kbd> + <kbd>Space</kbd> to open Spotlight Search
