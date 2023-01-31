@@ -1,0 +1,39 @@
+#!/bin.bash
+
+# this is my backup script. before running it, remove or add things to backup on your Mac, so it will fit your needs.
+
+# do some nice ascii art thing
+echo ' '
+echo ' '
+echo '            _              _    _       '     
+echo '           ( )            (_ ) (_ )  _  '
+echo '   _ _    _| | _ __   _    | |  | | (_) '
+echo ' / _  ) / _  |(  __)/ _ \  | |  | | | | '
+echo '( (_| |( (_| || |  ( (_) ) | |  | | | | '
+echo '`\__,_) \__,_)(_)   \___/ (___)(___)(_) '
+echo ' '                                       
+echo 'You are running the adrolli Mac backup.'
+echo 'This will backup all config.'
+echo 'and save it to iCloud.'
+echo ' '
+
+# make sure we are able to do things
+sudo -v
+echo ' '
+
+# Create the backup folder
+echo 'Create the backup folder'
+echo '------------------------'
+today=$(date +"%Y-%m-%d")
+echo 'Backup to ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/'$today'/'
+mkdir ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/${today}/
+echo ' '
+
+# Backup MacOS Preferences
+echo 'Backup MacOS Preferences'
+echo '------------------------'
+echo ' '
+echo 'Backed up'
+cp -Rfv ~/Library/Preferences ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/${today}/Preferences/ | wc -l
+echo 'files'
+echo ' '

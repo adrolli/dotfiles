@@ -27,6 +27,7 @@ echo '-------------'
 brew services stop php
 sudo brew services stop nginx
 sudo brew services stop dnsmasq
+echo ' '
 
 # Update Homebrew - https://brew.sh
 echo 'Self-update Homebrew'
@@ -48,6 +49,7 @@ brew cleanup
 echo 'List all things'
 echo '---------------'
 brew list
+echo ' '
 
 # Start services (valet runs with sudo!)
 echo 'Start services'
@@ -55,14 +57,23 @@ echo '--------------'
 brew services start php
 sudo brew services start nginx
 sudo brew services start dnsmasq
+echo ' '
 
 # Update Laravel Valet - https://laravel.com/docs/valet'
 echo 'Update Laravel Valet'
 echo '--------------------'
 composer global require laravel/valet
 valet install
+echo ' '
 
 # Update my Aliases
 echo 'Update my Aliases'
 echo '-----------------'
 cp ~/Documents/GitHub/dotfiles/aliases.zsh ~/.oh-my-zsh/custom
+echo ' '
+
+# Update my Git config
+echo 'Update my Git config'
+echo '--------------------'
+cp ~/Documents/GitHub/dotfiles/.gitconfig ~/.gitconfig
+echo ' '

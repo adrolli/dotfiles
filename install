@@ -128,7 +128,13 @@ echo '----------------------------------------'
 brew install --cask macpass
 echo ' '
 
+# Install Slack - https://slack.com
+echo 'Install Slack - https://slack.com'
+echo '----------------------------------------'
+brew install --cask slack
+echo ' '
+
 # Install my Aliases
-echo 'Update my Aliases'
-echo '-----------------'
+echo 'Install my Aliases'
+echo '------------------'
 cp ~/Documents/GitHub/dotfiles/aliases.zsh ~/.oh-my-zsh/custom

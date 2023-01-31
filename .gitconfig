@@ -1,5 +1,5 @@
 [user]
-	name = Alf
+	name = Alf Drollinger
 	email = alf@drollinger.info
 [filter "lfs"]
 	clean = git-lfs clean -- %f
