@@ -23,14 +23,15 @@ Working with the Terminal, VS Code and some other software is more efficent, if 
 
 This is the software I use on my Mac. The Homebrew part is handled by the scripts.
 
+- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, MacPass, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox)
 - [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store (Word, Excel, Outlook, Powerpoint, OneNote and OneDrive)
 - [Adobe Creative Cloud](https://www.adobe.com/) (Photoshop, Illustrator, InDesign, Premiere, AfterEffects, Lightroom Classic, Acrobat, XD, Media Encoder)
-- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, MacPass, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack)
 - [Toggl Track](https://apps.apple.com/us/app/toggl-track-hours-time-log/id1291898086) from Mac App Store
+- [Skipper](https://www.skipper18.com/) from their website
 
 ## Settings
 
-Using the backup-script, all preferences should be backed up in iCloud. These are the most important settings for me:
+Using the backup-script, all preferences should be backed up in iCloud or managed this repo. Some important settings are:
 
 - Appearance -> Dark, Multicolor
 - Background -> Ventura Dark
@@ -47,14 +48,15 @@ Using the backup-script, all preferences should be backed up in iCloud. These ar
 - System Settings > General > Login Items -> add PHP Monitor
 - iTerm2 Menu -> Make iTerm the default term
 - System Settings > Security & Privacy > Full Disk Access > add iTerm (for Backups)
+- System Settings > Security & Privacy > Screen Recording > add TeamViewer
+- Add eval $(thefuck --alias) to .zshrc
 
 ## Todo
 
-- Install Swyx
-- Install Skype, Firefox, Edge, Postman, Ray, Teamviewer, Docker (Laravel Sail) using Homebrew
-- Install Skipper - https://www.skipper18.com/
-- Install comWORK using Wine, [Crossover](https://www.codeweavers.com/crossover) or [Parallels](https://www.parallels.com/de/)
-- Try [Alfred](https://www.alfredapp.com/), [PI Hole](https://github.com/pi-hole/pi-hole), [The Fuck](https://github.com/nvbn/thefuck)
+- Install Skype or another Phone, Edge, Postman, Ray using Homebrew
+- Test Laravel Sail
+- Install heco VPN, [Swyx](https://apps.apple.com/de/app/swyx-desktop/id1029922555?mt=12) and comWORK using [Wine](https://www.winehq.org/), [Crossover](https://www.codeweavers.com/crossover) or [Parallels](https://www.parallels.com/de/)
+- Try [Alfred](https://www.alfredapp.com/), [PI Hole](https://github.com/pi-hole/pi-hole)
 - Short access to todos, devlog, daily by using aliases and keybindings
 - Use [SSH Profiles](https://hiltmon.com/blog/2013/07/18/fast-ssh-windows-with-iterm-2/) including passwords in [Mac Password Manager](https://support.apple.com/de-de/guide/mac-help/mchlf375f392/mac)
 - Optimize Keybindings, probably book [VS Code is Awesome](https://makevscodeawesome.com/) or look at Freeks Theming
@@ -74,10 +76,11 @@ Using the backup-script, all preferences should be backed up in iCloud. These ar
 
 ## iPad Pro
 
-Mostly used as second screen for my mobile dual screen setup with Sidecar, https://support.apple.com/en-us/HT210380. Some Apps for Reading, Video and doing basic painting (Adobe, MS)
+Mostly used as second screen for my mobile dual screen setup with Sidecar, https://support.apple.com/en-us/HT210380. Some Apps for Reading, Video and Painting (Adobe)
 
 ## iPhone
 
+- Chrome and Google Maps
 - Swyx und https://www.placetel.de/ oder https://www.voys.co/
 - Sparkasse, Paypal
 - Passwordmanager with 2-FA - [Keepassium](https://apps.apple.com/de/app/keepassium-keepass-passwords/id1435127111)

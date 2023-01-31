@@ -24,6 +24,7 @@ Short on time? Use shorter commands:
 
 - **ty** instead of `open -a typora`
 - **vs** instead of `code .`
+- **fu** instead of `fuck`
 
 ## Linux
 

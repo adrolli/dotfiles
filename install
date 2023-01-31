@@ -134,7 +134,51 @@ echo '----------------------------------------'
 brew install --cask slack
 echo ' '
 
+# Install The Fuck - https://github.com/nvbn/thefuck
+echo 'Install The Fuck - https://github.com/nvbn/thefuck'
+echo '--------------------------------------------------'
+brew install --cask thefuck
+echo ' '
+
+# Install Teamviewer - https://www.teamviewer.com
+echo 'Install Teamviewer - https://www.teamviewer.com'
+echo '--------------------------------------------------'
+brew install --cask teamviewer
+echo ' '
+
+# Install Docker - https://www.docker.com
+echo 'Install Docker - https://www.docker.com'
+echo '----------------------------------------'
+brew install --cask docker
+echo ' '
+
+# Install Firefox - https://www.mozilla.org
+echo 'Install Firefox - https://www.mozilla.org'
+echo '-----------------------------------------'
+brew install --cask firefox
+echo ' '
+
 # Install my Aliases
 echo 'Install my Aliases'
 echo '------------------'
 cp ~/Documents/GitHub/dotfiles/aliases.zsh ~/.oh-my-zsh/custom
+echo ' '
+
+# Install my Git config
+echo 'Install my Git config'
+echo '--------------------'
+cp ~/Documents/GitHub/dotfiles/.gitconfig ~/.gitconfig
+echo ' '
+
+# Install my .zshrc
+echo 'Install my .zshrc'
+echo '------------------'
+cp ~/Documents/GitHub/dotfiles/.zshrc ~/
+echo ' '
+
+# Restore my config from iCloud
+echo 'Restore my config from iCloud'
+echo '-----------------------------'
+cp -Rfv ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/latest/Preferences/ ~/Library/Preferences | wc -l
+echo 'files restored'
+echo ' '

@@ -85,3 +85,9 @@ echo 'Update my Git config'
 echo '--------------------'
 cp ~/Documents/GitHub/dotfiles/.gitconfig ~/.gitconfig
 echo ' '
+
+# Update my .zshrc
+echo 'Update my .zshrc'
+echo '------------------'
+cp ~/Documents/GitHub/dotfiles/.zshrc ~/
+echo ' '

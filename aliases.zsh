@@ -14,6 +14,7 @@ alias tui="cd ~/Documents/GitHub/tallui"
 # Apps
 alias ty="open -a typora"
 alias vs="code ."
+alias fu="fuck"
 
 # Linux
 alias l="ls -lAFh"
