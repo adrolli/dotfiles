@@ -1,7 +1,7 @@
 # Dotfiles scripts
 alias upd="zsh ~/Documents/GitHub/dotfiles/update"
 alias ins="zsh ~/Documents/GitHub/dotfiles/install"
-alias bck="zsh ~/Documents/GitHub/dotfiles/backup"
+alias bku="zsh ~/Documents/GitHub/dotfiles/backup"
 alias ali="open -a typora ~/Documents/GitHub/dotfiles/Aliases.md"
 alias key="open -a typora ~/Documents/GitHub/dotfiles/Shortcuts.md"
 

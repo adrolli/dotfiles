@@ -6,7 +6,7 @@ Short on time? Use shorter commands:
 
 - **upd** instead of `zsh ~/Documents/GitHub/dotfiles/update`
 - **ins** instead of `zsh ~/Documents/GitHub/dotfiles/install`
-- **bck** instead of `zsh ~/Documents/GitHub/dotfiles/backup`
+- **bku** instead of `zsh ~/Documents/GitHub/dotfiles/backup`
 
 ## Cheatsheets
 
