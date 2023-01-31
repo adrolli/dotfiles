@@ -33,18 +33,26 @@ echo ' '
 echo 'Self-update Homebrew'
 echo '--------------------'
 brew update
+echo ' '
+
 # Update all casks and formulas
 echo 'Update all things'
 echo '-----------------'
 brew upgrade
+echo ' '
+
 # Show all outdated casks and formulas
 echo 'Anything outdated?'
 echo '------------------'
 brew outdated 
+echo ' '
+
 # Cleanup
 echo 'Cleanup Homebrew'
 echo '----------------'
 brew cleanup
+echo ' '
+
 # List all services
 echo 'List all things'
 echo '---------------'
