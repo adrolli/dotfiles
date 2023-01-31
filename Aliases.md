@@ -8,6 +8,11 @@ Short on time? Use shorter commands:
 - **ins** instead of `zsh ~/Documents/GitHub/dotfiles/install`
 - **bck** instead of `zsh ~/Documents/GitHub/dotfiles/backup`
 
+## Cheatsheets
+
+- **ali** instead of `open -a typora ~/Documents/GitHub/dotfiles/Aliases.md`
+- **key** instead of `**open -a typora ~/Documents/GitHub/dotfiles/Shortcuts.md`
+
 ## Paths
 
 - **h** instead of `cd ~`
