@@ -9,6 +9,7 @@ This is my very own list of MacOS keyboard shortcuts. I will add custom keybindi
 - <kbd>Control</kbd> + Click to make a "right mouse click"
 - <kbd>Control</kbd> + <kbd>&darr;</kbd> (Down Arrow) to show all open windows of the current app
 - <kbd>Command</kbd> + <kbd>Space</kbd> to open Spotlight Search
+- <kbd>Option</kbd> + <kbd>Space</kbd> to open Raycast Search
 - <kbd>Command</kbd> + <kbd>S</kbd> to Save a file
 - <kbd>Command</kbd> + <kbd>C</kbd> to Copy and <kbd>Command</kbd> + <kbd>V</kbd> to Paste
 - <kbd>Command</kbd> + <kbd>X</kbd> to Cut and <kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> to Paste a file in Finder

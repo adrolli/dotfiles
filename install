@@ -158,6 +158,24 @@ echo '-----------------------------------------'
 brew install --cask firefox
 echo ' '
 
+# Install Microsoft Teams - https://www.microsoft.com/microsoft-teams/
+echo 'Install Microsoft Teams - https://www.microsoft.com/microsoft-teams/'
+echo '--------------------------------------------------------------------'
+brew install --cask microsoft-teams
+echo ' '
+
+# Install Skype - https://www.skype.com/
+echo 'Install Skype - https://www.skype.com/'
+echo '--------------------------------------'
+brew install --cask skype
+echo ' '
+
+# Install Raycast - https://www.raycast.com/
+echo 'Install Raycast - https://www.raycast.com/'
+echo '------------------------------------------'
+brew install --cask raycast
+echo ' '
+
 # Install my Aliases
 echo 'Install my Aliases'
 echo '------------------'
