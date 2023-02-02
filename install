@@ -28,7 +28,7 @@ echo ' '
 # Install Homebrew - https://brew.sh
 echo 'Install Homebrew - https://brew.sh'
 echo '----------------------------------'
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/alfdrollinger/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/alfdrollinger/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -174,6 +174,51 @@ echo ' '
 echo 'Install Raycast - https://www.raycast.com/'
 echo '------------------------------------------'
 brew install --cask raycast
+echo ' '
+
+# Install RapidAPI - https://paw.cloud/
+echo 'Install RapidAPI - https://paw.cloud/'
+echo '-------------------------------------'
+brew install --cask rapidapi
+echo ' '
+
+# Install Microsoft Edge - https://www.microsoft.com/edge
+echo 'Install Microsoft Edge - https://www.microsoft.com/edge'
+echo '-------------------------------------------------------'
+brew install --cask microsoft-edge
+echo ' '
+
+# Install Ray from Spatie - https://www.myray.app
+echo 'Install Ray from Spatie - https://www.myray.app'
+echo '-----------------------------------------------'
+brew install --cask ray
+echo ' '
+
+# Install Tinkerwell from BeyondCode - https://www.tinkerwell.app
+echo 'Install Tinkerwell from BeyondCode - https://www.tinkerwell.app'
+echo '---------------------------------------------------------------'
+brew install --cask tinkerwell
+echo ' '
+
+# Install Helo from BeyondCode - https://usehelo.com
+echo 'Install Helo from BeyondCode - https://usehelo.com'
+echo '--------------------------------------------------'
+brew install --cask helo
+echo ' '
+
+# Install Invoker from BeyondCode - https://invoker.dev
+echo 'Install Invoker from BeyondCode - https://invoker.dev'
+echo '-----------------------------------------------------'
+brew install --cask invoker
+echo ' '
+
+# Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/
+echo 'Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/'
+echo '-----------------------------------------------------------------------------------------------'
+git clone https://github.com/powerline/fonts.git
+cd fonts
+./install.sh
+cd .. && rm -rf fonts
 echo ' '
 
 # Install my Aliases

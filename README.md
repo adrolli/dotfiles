@@ -36,11 +36,12 @@ This will install Homebrew and a lot of Software from PHP to VS Code and Github 
 
 This is the software I use on my Mac. The Homebrew part is handled by the install script.
 
-- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, MacPass, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox, Microsoft Teams, Skype, Raycast)
+- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, MacPass, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox, Microsoft Teams, Skype, Raycast, RapidAPI, Tinkerwell, Helo, Invoker)
 - [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store (Word, Excel, Outlook, Powerpoint, OneNote and OneDrive)
 - [Adobe Creative Cloud](https://www.adobe.com/) (Photoshop, Illustrator, InDesign, Premiere, AfterEffects, Lightroom Classic, Acrobat, XD, Media Encoder)
 - [Toggl Track](https://apps.apple.com/us/app/toggl-track-hours-time-log/id1291898086) from Mac App Store
 - [Skipper](https://www.skipper18.com/) from their website
+- [DaisyDisk](https://daisydiskapp.com/) from their website
 
 ## Settings
 
@@ -64,6 +65,8 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - System Settings > Security & Privacy > Full Disk Access > add iTerm (for Backups)
 - System Settings > Security & Privacy > Screen Recording > add TeamViewer
 - Add eval $(thefuck --alias) to .zshrc
+- Install Plugins for Invoker: Tinkerwell, Enlightn and configure the PHP path
+- Change to a Powerline Font in iTerm and VS Code, see https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/
 
 ## Decisions
 
@@ -74,26 +77,22 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - I chose not to use [Mackup](https://github.com/lra/mackup) to backup my settings, instead I use my own backup script.
 - I chose not to use Time Machine or other backup software. I use iCloud, OneDrive, Adobe Cloud and GitHub to ensure that every file, which I would miss immensely, exists in two independent places.
 - I made the switch from PHPStorm to VS Code because I love how fast and simple VS Code is. With my [Laravel and TALL-Stack Extension Pack for VS Code](https://github.com/adrolli/tallui-vscode) I do not miss a thing.
+- I chose [RapidAPI](https://paw.cloud/) (formerly Paw) instead of [Postman](https://www.postman.com/) because of curiosity. I do not need it very often and it just works a bit faster.
+- I installed Firefox and Edge for testing purposes. I plan to do the switch to Safari, but for now I stick with Google Chrome, because I am used to it.
 
 ## Todo
 
 - Add Git, current version, see https://gist.github.com/kamermanpr/23bc20180dc277bc8043558f0c22f8a9
-  
 - Learn Raycast, https://manual.raycast.com/hotkey
-  
 - Install [DaisyDisk](https://daisydiskapp.com/), https://gfycat.com/gifbrewery, 
-  
 - Do I need https://nodemailer.com/?
-  
 - Replace Skype by [Clinq](https://clinq.com/), [Placetel](https://placetel.de/), [Fonial](https://www.fonial.de/), [Telephone](https://www.64characters.com/telephone/) or something like that
   - Fonial Test Account and Placetel Test Account opened 31.01.2023
   - Placetel Softphone and Clinq are installed
-
-- Edge, Postman or https://paw.cloud/, Ray https://myray.app/ using Homebrew
 - Test Laravel Sail
 - Install heco VPN, [Swyx](https://apps.apple.com/de/app/swyx-desktop/id1029922555?mt=12) and comWORK using [Wine](https://www.winehq.org/), [Crossover](https://www.codeweavers.com/crossover) or [Parallels](https://www.parallels.com/de/)
 - Try [PI Hole](https://github.com/pi-hole/pi-hole) or https://adguard.com/en/license.html 
-- Try https://c-command.com/toothfairy/ after playing with Earphones
+- Try https://c-command.com/toothfairy/ 
 - https://www.telestream.net/screenflow/overview.htm is something to remember?
 - Short access to todos, devlog, daily by using aliases and keybindings
 - Use [SSH Profiles](https://hiltmon.com/blog/2013/07/18/fast-ssh-windows-with-iterm-2/) including passwords in [Mac Password Manager](https://support.apple.com/de-de/guide/mac-help/mchlf375f392/mac)
@@ -101,7 +100,9 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - Use a Window Manager like [Rectangle](https://github.com/rxhanson/Rectangle) or https://manytricks.com/moom/ and a [File Manager](https://www.macgasm.net/software/file-manager-mac/), Freek uses [Transmit](https://panic.com/transmit/)
 - Use Keepass Shortcuts or change Password-Manager to 1password https://1password.com/
 - Try better [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais) from VS Code
-- Try **Command+Option+Shift+V** = Paste without styles
+- Try **Command+Option+Shift+V** = Paste without styles, in VS Code?
+- Settings are backuped but could also be set, like https://github.com/freekmurze/dotfiles/blob/main/macos/set-defaults.sh
+- Finish setup in VS Code (and Terminal?) - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/, adjust colors
 
 ### Inspiration
 
