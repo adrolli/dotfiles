@@ -66,7 +66,9 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - System Settings > Security & Privacy > Screen Recording > add TeamViewer
 - Add eval $(thefuck --alias) to .zshrc
 - Install Plugins for Invoker: Tinkerwell, Enlightn and configure the PHP path
+- Configure ZSH Theme to [Agnoster Theme](https://github.com/agnoster/agnoster-zsh-theme) and set the Profile to [Solarized Color Theme](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors)
 - Change to a Powerline Font in iTerm and VS Code, see https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/
+- GitHub Desktop Menu -> Install Command Line Tool
 
 ## Decisions
 
