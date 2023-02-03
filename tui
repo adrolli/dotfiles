@@ -1,0 +1,14 @@
+#!/bin.bash
+
+# this quick starts my favorite project
+
+cd ~/Documents/GitHub/tallui
+code .
+github
+open -a "Google Chrome" https://tallui.test
+open -a Typora README.md
+open -a Invoker
+open -a Helo
+open -a Ray
+open -a Skipper Tallui.skipper
+npm run dev

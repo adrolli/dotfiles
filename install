@@ -245,3 +245,9 @@ echo '-----------------------------'
 cp -Rfv ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/latest/Preferences/ ~/Library/Preferences | wc -l
 echo 'files restored'
 echo ' '
+
+# Install the tui script
+echo 'Install the tui script'
+echo '----------------------'
+cp ~/Documents/GitHub/dotfiles/tui ~/tui
+echo ' '

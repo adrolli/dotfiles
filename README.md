@@ -84,7 +84,6 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 
 ## Todo
 
-- Finish setup in VS Code (and Terminal?) - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/, adjust colors
 - Cleanup Downloads - Daisydisk (Lic key?) and Make VS Code Awesome
 - Add Git, current version, see https://gist.github.com/kamermanpr/23bc20180dc277bc8043558f0c22f8a9
 - Learn Raycast, https://manual.raycast.com/hotkey

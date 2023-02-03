@@ -4,12 +4,12 @@ alias ins="zsh ~/Documents/GitHub/dotfiles/install"
 alias bku="zsh ~/Documents/GitHub/dotfiles/backup"
 alias ali="open -a typora ~/Documents/GitHub/dotfiles/Aliases.md"
 alias key="open -a typora ~/Documents/GitHub/dotfiles/Shortcuts.md"
+alias tui="zsh ~/tui"
 
 # Paths
 alias h="cd ~"
 alias gh="cd ~/Documents/GitHub"
 alias od="cd ~/OneDrive"
-alias tui="cd ~/Documents/GitHub/tallui"
 
 # Apps
 alias ty="open -a typora"

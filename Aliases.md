@@ -7,6 +7,7 @@ Short on time? Use shorter commands:
 - **upd** instead of `zsh ~/Documents/GitHub/dotfiles/update`
 - **ins** instead of `zsh ~/Documents/GitHub/dotfiles/install`
 - **bku** instead of `zsh ~/Documents/GitHub/dotfiles/backup`
+- **tui** instead of CDing to tallui, opening VS Code, GitHub Desktop, Chrome, Skipper, Invoker, Helo, Ray and NPM run dev manually
 
 ## Cheatsheets
 
@@ -18,7 +19,6 @@ Short on time? Use shorter commands:
 - **h** instead of `cd ~`
 - **gh** instead of `cd ~/Documents/GitHub`
 - **od** instead of `cd ~/OneDrive`
-- **tui** instead of `cd ~/Documents/GitHub/tallui`
 
 ## Apps
 
