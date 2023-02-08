@@ -212,6 +212,12 @@ echo '-----------------------------------------------------'
 brew install --cask invoker
 echo ' '
 
+# Install Rectangle Window Manager - https://rectangleapp.com/
+echo 'Install Rectangle Window Manager - https://rectangleapp.com/'
+echo '------------------------------------------------------------'
+brew install --cask rectangle
+echo ' '
+
 # Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/
 echo 'Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/'
 echo '-----------------------------------------------------------------------------------------------'

@@ -88,13 +88,10 @@ More: https://gist.github.com/squarism/ae3613daf5c01a98ba3a
 
 
 
-## Not used
+## Rectangle Window Manager
 
-- <kbd>↵ Enter</kbd>
--  <kbd>↑</kbd>
-- <kbd>←</kbd>
-- <kbd>&darr;</kbd>
-- <kbd>→</kbd>
+- <kbd>^ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>↵ Enter</kbd> to fullsize the current window
+- <kbd>^ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>↑</kbd> <kbd>←</kbd> <kbd>&darr;</kbd> <kbd>→</kbd> to move them to top, left, bottom or right
 
 
 

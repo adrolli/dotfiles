@@ -36,7 +36,7 @@ This will install Homebrew and a lot of Software from PHP to VS Code and Github 
 
 This is the software I use on my Mac. The Homebrew part is handled by the install script.
 
-- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, MacPass, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox, Microsoft Teams, Skype, Raycast, RapidAPI, Tinkerwell, Helo, Invoker)
+- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, MacPass, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox, Microsoft Teams, Skype, Raycast, RapidAPI, Tinkerwell, Helo, Invoker, Rectangle)
 - [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store (Word, Excel, Outlook, Powerpoint, OneNote and OneDrive)
 - [Adobe Creative Cloud](https://www.adobe.com/) (Photoshop, Illustrator, InDesign, Premiere, AfterEffects, Lightroom Classic, Acrobat, XD, Media Encoder)
 - [Toggl Track](https://apps.apple.com/us/app/toggl-track-hours-time-log/id1291898086) from Mac App Store
@@ -82,6 +82,7 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - I chose [RapidAPI](https://paw.cloud/) (formerly Paw) instead of [Postman](https://www.postman.com/) because of curiosity. I do not need it very often and it just works a bit faster.
 - I installed Firefox and Edge for testing purposes. I plan to do the switch to Safari, but for now I stick with Google Chrome, because I am used to it.
 - After buying and watching the [Make VS Code Awesome Course](https://makevscodeawesome.com/) by Caleb Porzio, i decided to start with the [Palenight Theme](https://vscodethemes.com/e/whizkydee.material-palenight-theme/palenight-italic?language=javascript) for VS Code but stay on [Solarized Dark Theme (Patched)](https://iterm2colorschemes.com/) with iTerm2 (even if Palenight is available for iTerm).
+- I use the free OSS version of [Rectangle](https://github.com/rxhanson/Rectangle) (OSS, but Freemium) as [Window Manager](https://www.makeuseof.com/tag/best-mac-window-management-tools/), not a commercial one like [MOOM](https://manytricks.com/moom/) or [Yabai](https://github.com/koekeishiya/yabai) (FOSS but need disable security features of MacOS) or [Amethyst](https://ianyh.com/amethyst/) (FOSS but not for me as auto-placement, lack of important settings and no mouse support)
 
 ## Todo
 
@@ -101,11 +102,6 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - Short access to todos, devlog, daily by using aliases and keybindings
 - Use [SSH Profiles](https://hiltmon.com/blog/2013/07/18/fast-ssh-windows-with-iterm-2/) including passwords in [Mac Password Manager](https://support.apple.com/de-de/guide/mac-help/mchlf375f392/mac)
 - Optimize Keybindings, probably book [VS Code is Awesome](https://makevscodeawesome.com/) or look at Freeks Theming
-- Use a [Window Manager](https://www.makeuseof.com/tag/best-mac-window-management-tools/) like [Rectangle](https://github.com/rxhanson/Rectangle) (OSS, but Freemium) or [MOOM](https://manytricks.com/moom/) (Commercial), [Yabai](https://github.com/koekeishiya/yabai) (FOSS, [probably not actively maintained](https://github.com/koekeishiya/yabai/issues/1570)), or [Amethyst](https://ianyh.com/amethyst/) (FOSS, currently trying)
-  - brew install --cask amethyst - not yet in install
-  - https://www.youtube.com/watch?v=7Z9-Ry4yGNc
-  - Or Yabai? - https://www.youtube.com/watch?v=JL1lz77YbUE
-
 - Use a [File Manager](https://www.macgasm.net/software/file-manager-mac/), Freek uses [Transmit](https://panic.com/transmit/)
 - Use a Shortcut / Keybindings Manager - because of things like not able to ESC'ing Outlook Windows and doing more interesting stuff like controlling scripts - https://karabiner-elements.pqrs.org/ watch https://www.youtube.com/watch?v=uaJSjgVEhMQ
 - Use Keepass Shortcuts or change Password-Manager to 1password https://1password.com/
