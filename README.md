@@ -100,8 +100,15 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - Short access to todos, devlog, daily by using aliases and keybindings
 - Use [SSH Profiles](https://hiltmon.com/blog/2013/07/18/fast-ssh-windows-with-iterm-2/) including passwords in [Mac Password Manager](https://support.apple.com/de-de/guide/mac-help/mchlf375f392/mac)
 - Optimize Keybindings, probably book [VS Code is Awesome](https://makevscodeawesome.com/) or look at Freeks Theming
-- Use a Window Manager like [Rectangle](https://github.com/rxhanson/Rectangle) or https://manytricks.com/moom/ and a [File Manager](https://www.macgasm.net/software/file-manager-mac/), Freek uses [Transmit](https://panic.com/transmit/)
+- Use a [Window Manager](https://www.makeuseof.com/tag/best-mac-window-management-tools/) like [Rectangle](https://github.com/rxhanson/Rectangle) (OSS, but Freemium) or [MOOM](https://manytricks.com/moom/) (Commercial), [Yabai](https://github.com/koekeishiya/yabai) (FOSS, [probably not actively maintained](https://github.com/koekeishiya/yabai/issues/1570)), or [Amethyst](https://ianyh.com/amethyst/) (FOSS, currently trying)
+  - brew install --cask amethyst - not yet in install
+  - https://www.youtube.com/watch?v=7Z9-Ry4yGNc
+  - Or Yabai? - https://www.youtube.com/watch?v=JL1lz77YbUE
+
+- Use a [File Manager](https://www.macgasm.net/software/file-manager-mac/), Freek uses [Transmit](https://panic.com/transmit/)
+- Use a Shortcut / Keybindings Manager - because of things like not able to ESC'ing Outlook Windows and doing more interesting stuff like controlling scripts - https://karabiner-elements.pqrs.org/ watch https://www.youtube.com/watch?v=uaJSjgVEhMQ
 - Use Keepass Shortcuts or change Password-Manager to 1password https://1password.com/
+- Try https://vscodium.com/ instead of VS Code, mind https://open-vsx.org/ instead of Marketplace and no Microsoft Extensions at all (Remote ...)
 - Try better [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais) from VS Code
 - Try **Command+Option+Shift+V** = Paste without styles, in VS Code?
 - Settings are backuped but could also be set, like https://github.com/freekmurze/dotfiles/blob/main/macos/set-defaults.sh

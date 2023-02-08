@@ -18,6 +18,8 @@ More
 
 - https://support.apple.com/de-de/HT201236
 
+
+
 ## VS Code
 
 - <kbd>⌘ Command</kbd> + <kbd>J</kbd> to open integrated terminal, twice to jump to input, if already open
@@ -29,19 +31,28 @@ More
 - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
 - https://code.visualstudio.com/docs/getstarted/keybindings
 
+
+
 ## PHP Monitor
 
 - <kbd>^ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>⌘ Command</kbd> + <kbd>P</kbd> to toggle PHP Monitor
+
+
 
 ## Finder
 
 - <kbd>⌘ Command</kbd> + <kbd>⌫ Delete</kbd> to Delete files
 - <kbd>⌘ Command</kbd> + <kbd><</kbd> to switch between open Finder windows
 
+
+
 ## Chrome
 
 - <kbd>⌘ Command</kbd> + <kbd>T</kbd> to open a new tab in Chrome
 - <kbd>⌘ Command</kbd> + <kbd>L</kbd> to enter an URL or search in Chrome
+- <kbd>⌘ Command</kbd> + <kbd>⇧ Shift</kbd> + <kbd>R</kbd> to full refresh ()
+
+
 
 ## Typora
 
@@ -55,6 +66,8 @@ More: https://support.typora.io/Shortcut-Keys/
 
 More: https://gist.github.com/squarism/ae3613daf5c01a98ba3a
 
+
+
 ## Special chars
 
 - <kbd>⌥ Option</kbd> + <kbd>N</kbd> to type a ~ (tilde)
@@ -65,11 +78,15 @@ More: https://gist.github.com/squarism/ae3613daf5c01a98ba3a
 - <kbd>⌥ Option</kbd> + <kbd>9</kbd> to type a } (close curly bracket)
 - <kbd>⌥ Option</kbd> + <kbd>Shift</kbd> + <kbd>7</kbd> to type a \ (backslash)
 
+
+
 ## Screenshots
 
 - <kbd>⇧ Shift</kbd> + <kbd>⌘ Command</kbd> + <kbd>3</kbd> to make a full size screenshot
 - <kbd>⇧ Shift</kbd> + <kbd>⌘ Command</kbd> + <kbd>4</kbd> to start making a custom screenshot, <kbd>Space</kbd> to shot the active window
 - <kbd>⇧ Shift</kbd> + <kbd>⌘ Command</kbd> + <kbd>5</kbd> to make a custom screenshot, too
+
+
 
 ## Not used
 
@@ -79,3 +96,8 @@ More: https://gist.github.com/squarism/ae3613daf5c01a98ba3a
 - <kbd>&darr;</kbd>
 - <kbd>→</kbd>
 
+
+
+## Outlook
+
+https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-outlook-3cdeb221-7ae5-4c1d-8c1d-9e63216c1efd#PickTab=macOS
