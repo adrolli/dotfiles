@@ -14,9 +14,7 @@ This is my very own list of MacOS keyboard shortcuts. I will add custom keybindi
 - <kbd>⌘ Command</kbd> + <kbd>C</kbd> to Copy and <kbd>⌘ Command</kbd> + <kbd>V</kbd> to Paste
 - <kbd>⌘ Command</kbd> + <kbd>X</kbd> to Cut and <kbd>⌘ Command</kbd> + <kbd>⌥ Option</kbd> + <kbd>V</kbd> to Paste a file in Finder
 
-More
-
-- https://support.apple.com/de-de/HT201236
+More: https://support.apple.com/de-de/HT201236
 
 
 
@@ -60,6 +58,8 @@ More
 
 More: https://support.typora.io/Shortcut-Keys/
 
+
+
 ## iTerm Terminal
 
 - <kbd>^ Control</kbd> + <kbd>C</kbd> to stop a process in Terminal
@@ -93,8 +93,12 @@ More: https://gist.github.com/squarism/ae3613daf5c01a98ba3a
 - <kbd>^ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>↵ Enter</kbd> to fullsize the current window
 - <kbd>^ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>↑</kbd> <kbd>←</kbd> <kbd>&darr;</kbd> <kbd>→</kbd> to move them to top, left, bottom or right
 
+More: https://rectangleapp.com/
+
 
 
 ## Outlook
 
-https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-outlook-3cdeb221-7ae5-4c1d-8c1d-9e63216c1efd#PickTab=macOS
+- Todo
+
+More: https://support.microsoft.com/en-us/office/keyboard-shortcuts-for-outlook-3cdeb221-7ae5-4c1d-8c1d-9e63216c1efd#PickTab=macOS
