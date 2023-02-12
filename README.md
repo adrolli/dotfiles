@@ -92,8 +92,9 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - Install https://gfycat.com/gifbrewery, 
 - Do I need https://nodemailer.com/ ... most probably replaced by Helo?
 - Replace Skype by [Clinq](https://clinq.com/), [Placetel](https://placetel.de/), [Fonial](https://www.fonial.de/), [Telephone](https://www.64characters.com/telephone/) or something like that
-  - Fonial Test Account and Placetel Test Account opened 31.01.2023
-  - Placetel Softphone and Clinq are installed
+  - Fonial Portierung von Skype läuft inkl. Kündigung
+  - Telephone App im Appstore geladen und Pro gekauft, Dokumentieren
+  - Uninstall Skype and Check if it is cancelled 
 - Test Laravel Sail
 - Install heco VPN, [Swyx](https://apps.apple.com/de/app/swyx-desktop/id1029922555?mt=12) and comWORK using [Wine](https://www.winehq.org/), [Crossover](https://www.codeweavers.com/crossover) or [Parallels](https://www.parallels.com/de/)
 - Try [PI Hole](https://github.com/pi-hole/pi-hole) or https://adguard.com/en/license.html 
@@ -102,13 +103,19 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - Short access to todos, devlog, daily by using aliases and keybindings
 - Use [SSH Profiles](https://hiltmon.com/blog/2013/07/18/fast-ssh-windows-with-iterm-2/) including passwords in [Mac Password Manager](https://support.apple.com/de-de/guide/mac-help/mchlf375f392/mac)
 - Optimize Keybindings, probably book [VS Code is Awesome](https://makevscodeawesome.com/) or look at Freeks Theming
-- Use a [File Manager](https://www.macgasm.net/software/file-manager-mac/), Freek uses [Transmit](https://panic.com/transmit/)
+- Use a [File Manager](https://www.macgasm.net/software/file-manager-mac/), Freek uses [Transmit](https://panic.com/transmit/), Currently testing Commander One (free, w/o remote) and [Forklift](https://binarynights.com/)
+  - brew install --cask commander-one - holy crap, I didn't like Total Commander for decades
+  - brew install --cask forklift - that looks nice
 - Use a Shortcut / Keybindings Manager - because of things like not able to ESC'ing Outlook Windows and doing more interesting stuff like controlling scripts - https://karabiner-elements.pqrs.org/ watch https://www.youtube.com/watch?v=uaJSjgVEhMQ
-- Use Keepass Shortcuts or change Password-Manager to 1password https://1password.com/
-- Try https://vscodium.com/ instead of VS Code, mind https://open-vsx.org/ instead of Marketplace and no Microsoft Extensions at all (Remote ...)
 - Try better [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais) from VS Code
 - Try **Command+Option+Shift+V** = Paste without styles, in VS Code?
 - Settings are backuped but could also be set, like https://github.com/freekmurze/dotfiles/blob/main/macos/set-defaults.sh
+- [Clear Chrome](https://www.privateinternetaccess.com/blog/how-to-delete-your-saved-passwords-on-every-browser/) from Passwords, Migrate all from Authy (and one or two in Google Authenticator?), Clean up 1password as single Place of all stuff, Safe master password and lock-up the PDF (Currently in OneDrive -> Software), Add to installer and docs:
+  - https://1password.com/ - brew install --cask 1password
+  - https://1password.com/de/downloads/command-line/ - brew install --cask 1password-cli
+
+- In OneDrive aufräumen (wo liegt z. B. Mastering Laravel Validation Rules rum?) und dann ALLES! auf eine zweite Cloud (iCloud?, Adobe Cloud?, Dropbox?) syncen? Oder reicht es so?
+
 
 ### Inspiration
 
@@ -126,6 +133,11 @@ Mostly used as second screen for my mobile dual screen setup with Sidecar, https
 ## iPhone
 
 - Chrome and Google Maps
-- Swyx und https://www.placetel.de/ oder https://www.voys.co/
+- Fonial with SIP App (don't know yet)
 - Sparkasse, Paypal
-- Passwordmanager with 2-FA - [Keepassium](https://apps.apple.com/de/app/keepassium-keepass-passwords/id1435127111)
+- 1Password
+- Slack
+- Whatsapp
+
+
+
