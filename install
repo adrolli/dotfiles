@@ -122,12 +122,6 @@ echo '-----------------------------------'
 brew install --cask iterm2
 echo ' '
 
-# Install MacPass - https://macpassapp.org
-echo 'Install MacPass - https://macpassapp.org'
-echo '----------------------------------------'
-brew install --cask macpass
-echo ' '
-
 # Install Slack - https://slack.com
 echo 'Install Slack - https://slack.com'
 echo '----------------------------------------'
@@ -162,12 +156,6 @@ echo ' '
 echo 'Install Microsoft Teams - https://www.microsoft.com/microsoft-teams/'
 echo '--------------------------------------------------------------------'
 brew install --cask microsoft-teams
-echo ' '
-
-# Install Skype - https://www.skype.com/
-echo 'Install Skype - https://www.skype.com/'
-echo '--------------------------------------'
-brew install --cask skype
 echo ' '
 
 # Install Raycast - https://www.raycast.com/
@@ -212,10 +200,28 @@ echo '-----------------------------------------------------'
 brew install --cask invoker
 echo ' '
 
-# Install Rectangle Window Manager - https://rectangleapp.com/
-echo 'Install Rectangle Window Manager - https://rectangleapp.com/'
+# Install Rectangle Window Manager - https://rectangleapp.com
+echo 'Install Rectangle Window Manager - https://rectangleapp.com'
 echo '------------------------------------------------------------'
 brew install --cask rectangle
+echo ' '
+
+# Install Forklift - https://binarynights.com/
+echo 'Install Forklift - https://binarynights.com/'
+echo '--------------------------------------------'
+brew install --cask forklift
+echo ' '
+
+# Install 1password - https://1password.com/
+echo 'Install 1password - https://1password.com'
+echo '-----------------------------------------'
+brew install --cask 1password
+echo ' '
+
+# Install 1password CLI - https://1password.com/de/downloads/command-line
+echo 'Install 1password CLI - https://1password.com/de/downloads/command-line'
+echo '-----------------------------------------------------------------------'
+brew install --cask 1password-cli
 echo ' '
 
 # Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/
@@ -252,8 +258,20 @@ cp -Rfv ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/latest/Pref
 echo 'files restored'
 echo ' '
 
+# Install the dev script
+echo 'Install the dev script'
+echo '----------------------'
+cp ~/Documents/GitHub/dotfiles/dev ~/dev
+echo ' '
+
 # Install the tui script
 echo 'Install the tui script'
 echo '----------------------'
 cp ~/Documents/GitHub/dotfiles/tui ~/tui
+echo ' '
+
+# Install the dot script
+echo 'Install the dot script'
+echo '----------------------'
+cp ~/Documents/GitHub/dotfiles/dot ~/dot
 echo ' '

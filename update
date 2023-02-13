@@ -91,3 +91,21 @@ echo 'Update my .zshrc'
 echo '------------------'
 cp ~/Documents/GitHub/dotfiles/.zshrc ~/
 echo ' '
+
+# Update the dev script
+echo 'Update the dev script'
+echo '----------------------'
+cp ~/Documents/GitHub/dotfiles/dev ~/dev
+echo ' '
+
+# Update the tui script
+echo 'Update the tui script'
+echo '----------------------'
+cp ~/Documents/GitHub/dotfiles/tui ~/tui
+echo ' '
+
+# Update the dot script
+echo 'Update the dot script'
+echo '----------------------'
+cp ~/Documents/GitHub/dotfiles/dot ~/dot
+echo ' '

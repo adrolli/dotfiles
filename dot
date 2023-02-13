@@ -1,0 +1,8 @@
+#!/bin.bash
+
+# start my project
+
+cd ~/Documents/GitHub/dotfiles
+code .
+github
+open -a Typora README.md

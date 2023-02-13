@@ -1,14 +1,18 @@
-#!/bin.bash
+#!/bin/bash
 
 # this quick starts my favorite project
+# can be called like "tui full", to start even more apps
+
+if [[ "$1" == "full" ]]; then
+    open -a Invoker
+    open -a Helo
+    open -a Ray
+    open -a Skipper Tallui.skipper
+fi
 
 cd ~/Documents/GitHub/tallui
 code .
 github
 open -a "Google Chrome" https://tallui.test
 open -a Typora README.md
-open -a Invoker
-open -a Helo
-open -a Ray
-open -a Skipper Tallui.skipper
 npm run dev

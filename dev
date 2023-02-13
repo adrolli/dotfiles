@@ -1,0 +1,23 @@
+#!/bin.bash
+
+# this quick starts one of my favorite projects
+# you can call it like 'dev dot' or 'dev tui full'
+
+projects=(tui dot)
+project=$1
+type=$2
+
+if [[ " ${projects[*]} " =~ " ${project} " ]]; then
+    source $project $type
+fi
+
+if [[ ! " ${projects[*]} " =~ " ${project} " ]]; then
+echo ' '
+echo 'Available commands:'
+echo ' '
+    for i in "${projects[@]}"
+    do
+        echo "dev $i"
+    done
+echo ' '
+fi

@@ -36,7 +36,7 @@ This will install Homebrew and a lot of Software from PHP to VS Code and Github 
 
 This is the software I use on my Mac. The Homebrew part is handled by the install script.
 
-- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, MacPass, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox, Microsoft Teams, Skype, Raycast, RapidAPI, Tinkerwell, Helo, Invoker, Rectangle)
+- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox, Microsoft Teams, Raycast, RapidAPI, Tinkerwell, Helo, Invoker, Rectangle, Forklift, 1password, 1password-cli)
 - [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store (Word, Excel, Outlook, Powerpoint, OneNote and OneDrive)
 - [Adobe Creative Cloud](https://www.adobe.com/) (Photoshop, Illustrator, InDesign, Premiere, AfterEffects, Lightroom Classic, Acrobat, XD, Media Encoder)
 - [Toggl Track](https://apps.apple.com/us/app/toggl-track-hours-time-log/id1291898086) from Mac App Store
@@ -87,34 +87,47 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - I use [Forklift 3](https://binarynights.com/) as [File Manager](https://www.macgasm.net/software/file-manager-mac/) and Finder replacement. All others are Total Commander clones (I hate the Commander style for decades), ship without darkmode (impossible to use for me, I am darkmode addicted), or lack features like managing a lot of SFTP or Cloud connections.
 - For SIP calls with my local phone number I used Skype for a couple of years. It was OK on Windows and Android but for Mac and iPhone I wanted to get rid of it (and the unnecessary Spam that comes with). As SIP-provider I tested Sipgate (much to expensive, no offer for Freelancers), [Placetel](https://placetel.de/) (OK, but the clients styling is not mine, lacking darkmode), so I decided for [Fonial](https://www.fonial.de/). Fonial is the cheapest. They do not offer SIP-clients. I tested [Clinq](https://clinq.com/) (nice but currently Beta and then much to expensive) and decided for [Telephone](https://www.64characters.com/telephone/) for Mac and [Groundwire](https://apps.apple.com/de/app/acrobits-groundwire/id378503081) for iPhone.
 
+## Dev Scripts
+
+A pretty annoying thing is to switch projects. It is not only switching from one project to another in VS Code. It is a bunch of things like:
+
+- cd'ing to the project folder in Terminal
+- Start VS Code
+- Start GitHub Desktop
+- Open the main README.md with Typora
+- Change PHP Version, Project folder in Valet or run Sail
+- Run `npm run dev` to get Vite up
+- Maybe there are other things like Skipper, Ray, Invoker, Helo ...
+
+That is all done by my dev-Scripts. Do it like:
+
+- **dev dot** to develop these dotfiles using VS Code, Typora and GitHub
+- **dev tui full** (or just for this project even shorter `tui full`), to run all things mentioned above
+
 ## Todo
 
-- [Forklift](https://binarynights.com/) into install script
-  - brew install --cask forklift
 - Uninstall Skype after Porting to Fonial is finished
 - Add Git, current version, see https://gist.github.com/kamermanpr/23bc20180dc277bc8043558f0c22f8a9
 - Learn Raycast, https://manual.raycast.com/hotkey, use as Window Manager, too? Ditch Rectangle then...
-- Install https://gfycat.com/gifbrewery, 
-- Do I need https://nodemailer.com/ ... most probably replaced by Helo?
+- Install https://gfycat.com/gifbrewery, first time you need it
+- Do I need https://nodemailer.com/ ... most probably replaced by Helo
 - Test Laravel Sail
 - Install heco VPN, [Swyx](https://apps.apple.com/de/app/swyx-desktop/id1029922555?mt=12) and comWORK using [Wine](https://www.winehq.org/), [Crossover](https://www.codeweavers.com/crossover) or [Parallels](https://www.parallels.com/de/)
 - Try [PI Hole](https://github.com/pi-hole/pi-hole) or https://adguard.com/en/license.html 
-- Try https://c-command.com/toothfairy/ 
+- Try https://c-command.com/toothfairy/, or skip because it is already working like a charm
 - https://www.telestream.net/screenflow/overview.htm is something to remember?
 - Short access to todos, devlog, daily by using aliases and keybindings
 - Use [SSH Profiles](https://hiltmon.com/blog/2013/07/18/fast-ssh-windows-with-iterm-2/) including passwords in [Mac Password Manager](https://support.apple.com/de-de/guide/mac-help/mchlf375f392/mac)
 - Optimize Keybindings, probably book [VS Code is Awesome](https://makevscodeawesome.com/) or look at Freeks Theming
 - Use a Shortcut / Keybindings Manager - because of things like not able to ESC'ing Outlook Windows and doing more interesting stuff like controlling scripts - https://karabiner-elements.pqrs.org/ watch https://www.youtube.com/watch?v=uaJSjgVEhMQ
-- Try better [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais) from VS Code
+- Try better [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais) from VS Code, or skip because your scripts are awesome enough
 - Try **Command+Option+Shift+V** = Paste without styles, in VS Code?
 - Settings are backuped but could also be set, like https://github.com/freekmurze/dotfiles/blob/main/macos/set-defaults.sh
-- [Clear Chrome](https://www.privateinternetaccess.com/blog/how-to-delete-your-saved-passwords-on-every-browser/) from Passwords, Migrate all from Authy (and one or two in Google Authenticator?), Clean up 1password as single Place of all stuff, Safe master password and lock-up the PDF (Currently in OneDrive -> Software), Add to installer and docs:
-  - https://1password.com/ - brew install --cask 1password
-  - https://1password.com/de/downloads/command-line/ - brew install --cask 1password-cli
-- In OneDrive aufräumen (wo liegt z. B. Mastering Laravel Validation Rules rum?) und dann ALLES! auf eine zweite Cloud (iCloud?, Adobe Cloud?, Dropbox?) syncen? Oder reicht es so?
+- [Clear Chrome](https://www.privateinternetaccess.com/blog/how-to-delete-your-saved-passwords-on-every-browser/) from all passwords, migrate all from Authy (and one or two in Google Authenticator?), clean up 1password
+- Clean up OneDrive  (where is Mastering Laravel Validation Rules? There are several places for Software and Courses) 
+- Sync everything to a second place (iCloud or Dropbox?)
 
-
-### Inspiration
+## Inspiration
 
 - Freek van der Herten is one of the most productive Laravel devs out there, his [dotfiles](https://github.com/freekmurze/dotfiles) and his [setup](https://freek.dev/2357-my-current-setup-end-2022-edition).
 - Laravel core dev Dries Vints has [dotfiles](https://github.com/driesvints/dotfiles) and a [blogpost](https://driesvints.com/blog/getting-started-with-dotfiles/) about it. Tayler Otwell shares his [setup](https://medium.com/@taylorotwell/how-i-work-october-2018-edition-e66a09931e7f).

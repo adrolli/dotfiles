@@ -8,6 +8,7 @@ Short on time? Use shorter commands:
 - **ins** instead of `zsh ~/Documents/GitHub/dotfiles/install`
 - **bku** instead of `zsh ~/Documents/GitHub/dotfiles/backup`
 - **tui** instead of CDing to tallui, opening VS Code, GitHub Desktop, Chrome, Skipper, Invoker, Helo, Ray and NPM run dev manually
+- **dev** instead of manually starting dev projects, use it like **dev dot** or **dev project full**
 
 ## Cheatsheets
 
