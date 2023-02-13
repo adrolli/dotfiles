@@ -40,6 +40,7 @@ This is the software I use on my Mac. The Homebrew part is handled by the instal
 - [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store (Word, Excel, Outlook, Powerpoint, OneNote and OneDrive)
 - [Adobe Creative Cloud](https://www.adobe.com/) (Photoshop, Illustrator, InDesign, Premiere, AfterEffects, Lightroom Classic, Acrobat, XD, Media Encoder)
 - [Toggl Track](https://apps.apple.com/us/app/toggl-track-hours-time-log/id1291898086) from Mac App Store
+- [Telephone](https://www.64characters.com/telephone/) from Mac App Store
 - [Skipper](https://www.skipper18.com/) from their website
 - [DaisyDisk](https://daisydiskapp.com/) from their website
 
@@ -83,18 +84,18 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - I installed Firefox and Edge for testing purposes. I plan to do the switch to Safari, but for now I stick with Google Chrome, because I am used to it.
 - After buying and watching the [Make VS Code Awesome Course](https://makevscodeawesome.com/) by Caleb Porzio, i decided to start with the [Palenight Theme](https://vscodethemes.com/e/whizkydee.material-palenight-theme/palenight-italic?language=javascript) for VS Code but stay on [Solarized Dark Theme (Patched)](https://iterm2colorschemes.com/) with iTerm2 (even if Palenight is available for iTerm).
 - I use the free OSS version of [Rectangle](https://github.com/rxhanson/Rectangle) (OSS, but Freemium) as [Window Manager](https://www.makeuseof.com/tag/best-mac-window-management-tools/), not a commercial one like [MOOM](https://manytricks.com/moom/) or [Yabai](https://github.com/koekeishiya/yabai) (FOSS but need disable security features of MacOS) or [Amethyst](https://ianyh.com/amethyst/) (FOSS but not for me as auto-placement, lack of important settings and no mouse support)
+- I use [Forklift 3](https://binarynights.com/) as [File Manager](https://www.macgasm.net/software/file-manager-mac/) and Finder replacement. All others are Total Commander clones (I hate the Commander style for decades), ship without darkmode (impossible to use for me, I am darkmode addicted), or lack features like managing a lot of SFTP or Cloud connections.
+- For SIP calls with my local phone number I used Skype for a couple of years. It was OK on Windows and Android but for Mac and iPhone I wanted to get rid of it (and the unnecessary Spam that comes with). As SIP-provider I tested Sipgate (much to expensive, no offer for Freelancers), [Placetel](https://placetel.de/) (OK, but the clients styling is not mine, lacking darkmode), so I decided for [Fonial](https://www.fonial.de/). Fonial is the cheapest. They do not offer SIP-clients. I tested [Clinq](https://clinq.com/) (nice but currently Beta and then much to expensive) and decided for [Telephone](https://www.64characters.com/telephone/) for Mac and [Groundwire](https://apps.apple.com/de/app/acrobits-groundwire/id378503081) for iPhone.
 
 ## Todo
 
-- Cleanup Downloads - Daisydisk (Lic key?) and Make VS Code Awesome
+- [Forklift](https://binarynights.com/) into install script
+  - brew install --cask forklift
+- Uninstall Skype after Porting to Fonial is finished
 - Add Git, current version, see https://gist.github.com/kamermanpr/23bc20180dc277bc8043558f0c22f8a9
-- Learn Raycast, https://manual.raycast.com/hotkey
+- Learn Raycast, https://manual.raycast.com/hotkey, use as Window Manager, too? Ditch Rectangle then...
 - Install https://gfycat.com/gifbrewery, 
 - Do I need https://nodemailer.com/ ... most probably replaced by Helo?
-- Replace Skype by [Clinq](https://clinq.com/), [Placetel](https://placetel.de/), [Fonial](https://www.fonial.de/), [Telephone](https://www.64characters.com/telephone/) or something like that
-  - Fonial Portierung von Skype läuft inkl. Kündigung
-  - Telephone App im Appstore geladen und Pro gekauft, Dokumentieren
-  - Uninstall Skype and Check if it is cancelled 
 - Test Laravel Sail
 - Install heco VPN, [Swyx](https://apps.apple.com/de/app/swyx-desktop/id1029922555?mt=12) and comWORK using [Wine](https://www.winehq.org/), [Crossover](https://www.codeweavers.com/crossover) or [Parallels](https://www.parallels.com/de/)
 - Try [PI Hole](https://github.com/pi-hole/pi-hole) or https://adguard.com/en/license.html 
@@ -103,9 +104,6 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - Short access to todos, devlog, daily by using aliases and keybindings
 - Use [SSH Profiles](https://hiltmon.com/blog/2013/07/18/fast-ssh-windows-with-iterm-2/) including passwords in [Mac Password Manager](https://support.apple.com/de-de/guide/mac-help/mchlf375f392/mac)
 - Optimize Keybindings, probably book [VS Code is Awesome](https://makevscodeawesome.com/) or look at Freeks Theming
-- Use a [File Manager](https://www.macgasm.net/software/file-manager-mac/), Freek uses [Transmit](https://panic.com/transmit/), Currently testing Commander One (free, w/o remote) and [Forklift](https://binarynights.com/)
-  - brew install --cask commander-one - holy crap, I didn't like Total Commander for decades
-  - brew install --cask forklift - that looks nice
 - Use a Shortcut / Keybindings Manager - because of things like not able to ESC'ing Outlook Windows and doing more interesting stuff like controlling scripts - https://karabiner-elements.pqrs.org/ watch https://www.youtube.com/watch?v=uaJSjgVEhMQ
 - Try better [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais) from VS Code
 - Try **Command+Option+Shift+V** = Paste without styles, in VS Code?
@@ -113,7 +111,6 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - [Clear Chrome](https://www.privateinternetaccess.com/blog/how-to-delete-your-saved-passwords-on-every-browser/) from Passwords, Migrate all from Authy (and one or two in Google Authenticator?), Clean up 1password as single Place of all stuff, Safe master password and lock-up the PDF (Currently in OneDrive -> Software), Add to installer and docs:
   - https://1password.com/ - brew install --cask 1password
   - https://1password.com/de/downloads/command-line/ - brew install --cask 1password-cli
-
 - In OneDrive aufräumen (wo liegt z. B. Mastering Laravel Validation Rules rum?) und dann ALLES! auf eine zweite Cloud (iCloud?, Adobe Cloud?, Dropbox?) syncen? Oder reicht es so?
 
 
@@ -128,12 +125,12 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 
 ## iPad Pro
 
-Mostly used as second screen for my mobile dual screen setup with Sidecar, https://support.apple.com/en-us/HT210380. Some Apps for Reading, Video and Painting (Adobe)
+Mostly used as second screen for my mobile dual screen setup with Sidecar, https://support.apple.com/en-us/HT210380. Some Apps for Reading, Video and Painting (Adobe) maybe ...
 
 ## iPhone
 
 - Chrome and Google Maps
-- Fonial with SIP App (don't know yet)
+- Fonial with [SIP App](https://www.fonial.de/hilfe/funktionen/mobile-integration/mobile-integration-ios), like [Groundwire](https://apps.apple.com/de/app/acrobits-groundwire/id378503081)
 - Sparkasse, Paypal
 - 1Password
 - Slack
