@@ -4,15 +4,16 @@
 # can be called like "tui full", to start even more apps
 
 if [[ "$1" == "full" ]]; then
-    open -a Invoker
-    open -a Helo
-    open -a Ray
-    open -a Skipper Tallui.skipper
+    open -ag Invoker
+    open -ag Helo
+    open -ag Ray
+    open -ag Skipper Tallui.skipper
 fi
 
 cd ~/Documents/GitHub/tallui
-code .
-github
+open -ag code .
+open -ag github
+open -ag Typora README.md
 open -a "Google Chrome" https://tallui.test
-open -a Typora README.md
+open -g raycast://confetti
 npm run dev
