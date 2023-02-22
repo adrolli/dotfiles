@@ -3,17 +3,21 @@
 # this quick starts my favorite project
 # can be called like "tui full", to start even more apps
 
+cd ~/Documents/GitHub/tallui
+
 if [[ "$1" == "full" ]]; then
-    open -ag Invoker
-    open -ag Helo
-    open -ag Ray
-    open -ag Skipper Tallui.skipper
+    open -a Invoker
+    open -a Helo
+    open -a Ray
+    open -a Skipper Tallui.skipper
+    sleep 1
 fi
 
-cd ~/Documents/GitHub/tallui
-open -ag code .
-open -ag github
-open -ag Typora README.md
+code .
+github
+open -a Typora README.md
+sleep 1
 open -a "Google Chrome" https://tallui.test
+sleep 1
 open -g raycast://confetti
 npm run dev
