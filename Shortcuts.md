@@ -13,6 +13,7 @@ This is my very own list of MacOS keyboard shortcuts. I will add custom keybindi
 - <kbd>⌘ Command</kbd> + <kbd>S</kbd> to Save a file
 - <kbd>⌘ Command</kbd> + <kbd>C</kbd> to Copy and <kbd>⌘ Command</kbd> + <kbd>V</kbd> to Paste
 - <kbd>⌘ Command</kbd> + <kbd>X</kbd> to Cut and <kbd>⌘ Command</kbd> + <kbd>⌥ Option</kbd> + <kbd>V</kbd> to Paste a file in Finder
+- <kbd>⌘ Command</kbd> + <kbd>⌥ Option</kbd> + <kbd>Esc</kbd> to force close apps even if frozen
 
 More: https://support.apple.com/de-de/HT201236
 
