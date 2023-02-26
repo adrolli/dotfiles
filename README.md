@@ -37,7 +37,7 @@ This will install Homebrew and a lot of Software from PHP to VS Code and Github 
 
 This is the software I use on my Mac. The Homebrew part is handled by the install script.
 
-- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox, Microsoft Teams, Raycast, RapidAPI, Tinkerwell, Helo, Invoker, Rectangle, Forklift, 1password, 1password-cli)
+- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox, Microsoft Teams, Raycast, RapidAPI, Tinkerwell, Helo, Invoker, Rectangle, Forklift, 1password, 1password-cli, Spotify)
 - [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store (Word, Excel, Outlook, Powerpoint, OneNote and OneDrive)
 - [Adobe Creative Cloud](https://www.adobe.com/) (Photoshop, Illustrator, InDesign, Premiere, AfterEffects, Lightroom Classic, Acrobat, XD, Media Encoder)
 - [Toggl Track](https://apps.apple.com/us/app/toggl-track-hours-time-log/id1291898086) from Mac App Store
