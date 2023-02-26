@@ -224,6 +224,12 @@ echo '-----------------------------------------------------------------------'
 brew install --cask 1password-cli
 echo ' '
 
+# Install Spotify - https://spotify.com
+echo 'Install Spotify - https://spotify.com'
+echo '-------------------------------------'
+brew install --cask spotify
+echo ' '
+
 # Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/
 echo 'Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/'
 echo '-----------------------------------------------------------------------------------------------'
