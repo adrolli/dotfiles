@@ -12,11 +12,12 @@ Working with the Terminal, VS Code and some other software is more efficent, if 
 
 - **.gitconfig** is my Git configuration
 - **[Aliases.md](Aliases.md)** is the readme file to remember my aliases
+- **README.md** is the file you are currently reading
+- **[Shortcuts.md](Shortcuts.md)** is the readme file to remember my keybindings
 - **aliases.zsh** are my aliases, copied to the ZSH Custom folder
 - **backup** saves my config files to iCloud, restore is made by install
 - **install** is my install script, it will install a lot of tools
-- **README.md** is the file you are currently reading
-- **[Shortcuts.md](Shortcuts.md)** is the readme file to remember my keybindings
+- **tui** starts my dev project TallUI and throws some confetti
 - **update** is my update script, that will keep my mac up to date
 
 ## Installing
