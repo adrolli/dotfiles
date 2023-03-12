@@ -92,20 +92,15 @@ echo '------------------'
 cp ~/Documents/GitHub/dotfiles/.zshrc ~/
 echo ' '
 
-# Update the dev script
-echo 'Update the dev script'
-echo '----------------------'
-cp ~/Documents/GitHub/dotfiles/dev ~/dev
-echo ' '
-
 # Update the tui script
 echo 'Update the tui script'
 echo '----------------------'
 cp ~/Documents/GitHub/dotfiles/tui ~/tui
 echo ' '
 
-# Update the dot script
-echo 'Update the dot script'
-echo '----------------------'
-cp ~/Documents/GitHub/dotfiles/dot ~/dot
+# Check for mac updates
+echo 'Mac Updates? Install using softwareupdate -i [NAME]'
+echo '---------------------------------------------------'
+softwareupdate -l
 echo ' '
+

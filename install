@@ -230,6 +230,12 @@ echo '-------------------------------------'
 brew install --cask spotify
 echo ' '
 
+# Install Fontbase - https://fontba.se
+echo 'Install Fontbase - https://fontba.se'
+echo '------------------------------------'
+brew install --cask fontbase
+echo ' '
+
 # Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/
 echo 'Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/'
 echo '-----------------------------------------------------------------------------------------------'
@@ -264,20 +270,8 @@ cp -Rfv ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/latest/Pref
 echo 'files restored'
 echo ' '
 
-# Install the dev script
-echo 'Install the dev script'
-echo '----------------------'
-cp ~/Documents/GitHub/dotfiles/dev ~/dev
-echo ' '
-
 # Install the tui script
 echo 'Install the tui script'
 echo '----------------------'
 cp ~/Documents/GitHub/dotfiles/tui ~/tui
-echo ' '
-
-# Install the dot script
-echo 'Install the dot script'
-echo '----------------------'
-cp ~/Documents/GitHub/dotfiles/dot ~/dot
 echo ' '

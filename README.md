@@ -37,7 +37,7 @@ This will install Homebrew and a lot of Software from PHP to VS Code and Github 
 
 This is the software I use on my Mac. The Homebrew part is handled by the install script.
 
-- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox, Microsoft Teams, Raycast, RapidAPI, Tinkerwell, Helo, Invoker, Rectangle, Forklift, 1password, 1password-cli, Spotify)
+- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox, Microsoft Teams, Raycast, RapidAPI, Tinkerwell, Helo, Invoker, Rectangle, Forklift, 1password, 1password-cli, Spotify, Fontbase)
 - [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store (Word, Excel, Outlook, Powerpoint, OneNote and OneDrive)
 - [Adobe Creative Cloud](https://www.adobe.com/) (Photoshop, Illustrator, InDesign, Premiere, AfterEffects, Lightroom Classic, Acrobat, XD, Media Encoder)
 - [Toggl Track](https://apps.apple.com/us/app/toggl-track-hours-time-log/id1291898086) from Mac App Store
@@ -114,7 +114,7 @@ That is all done by my dev-Scripts. Do it like:
 - Do I need https://nodemailer.com/ ... most probably replaced by Helo
 - Test Laravel Sail
 - Install heco VPN, [Swyx](https://apps.apple.com/de/app/swyx-desktop/id1029922555?mt=12) and comWORK using [Wine](https://www.winehq.org/), [Crossover](https://www.codeweavers.com/crossover) or [Parallels](https://www.parallels.com/de/)
-- Try [PI Hole](https://github.com/pi-hole/pi-hole) or https://adguard.com/en/license.html 
+- Try [PI Hole](https://github.com/pi-hole/pi-hole) or https://adguard.com/en/license.html
 - Try https://c-command.com/toothfairy/, or skip because it is already working like a charm
 - https://www.telestream.net/screenflow/overview.htm is something to remember?
 - Short access to todos, devlog, daily by using aliases and keybindings
@@ -125,7 +125,7 @@ That is all done by my dev-Scripts. Do it like:
 - Try **Command+Option+Shift+V** = Paste without styles, in VS Code?
 - Settings are backuped but could also be set, like https://github.com/freekmurze/dotfiles/blob/main/macos/set-defaults.sh
 - [Clear Chrome](https://www.privateinternetaccess.com/blog/how-to-delete-your-saved-passwords-on-every-browser/) from all passwords, migrate all from Authy (and one or two in Google Authenticator?), clean up 1password
-- Clean up OneDrive  (where is Mastering Laravel Validation Rules? There are several places for Software and Courses) 
+- Clean up OneDrive (where is Mastering Laravel Validation Rules? There are several places for Software and Courses)
 - Sync everything to a second place (iCloud or Dropbox?)
 
 ## Inspiration
@@ -149,6 +149,3 @@ Mostly used as second screen for my mobile dual screen setup with Sidecar, https
 - 1Password
 - Slack
 - Whatsapp
-
-
-
