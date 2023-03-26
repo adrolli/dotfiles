@@ -3,7 +3,7 @@
 # this quick starts my favorite project
 # can be called like "tui full", to start even more apps
 
-cd ~/Documents/GitHub/tallui
+cd ~/Documents/GitHub/tallui/tallui
 
 if [[ "$1" == "full" ]]; then
     open -a Invoker
