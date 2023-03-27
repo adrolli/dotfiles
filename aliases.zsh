@@ -1,9 +1,9 @@
 # Dotfiles scripts
-alias upd="zsh ~/Documents/GitHub/dotfiles/update"
-alias ins="zsh ~/Documents/GitHub/dotfiles/install"
-alias bku="zsh ~/Documents/GitHub/dotfiles/backup"
-alias ali="open -a typora ~/Documents/GitHub/dotfiles/Aliases.md"
-alias key="open -a typora ~/Documents/GitHub/dotfiles/Shortcuts.md"
+alias upd="zsh ~/Documents/GitHub/adrolli/dotfiles/update"
+alias ins="zsh ~/Documents/GitHub/adrolli/dotfiles/install"
+alias bku="zsh ~/Documents/GitHub/adrolli/dotfiles/backup"
+alias ali="open -a typora ~/Documents/GitHub/adrolli/dotfiles/Aliases.md"
+alias key="open -a typora ~/Documents/GitHub/adrolli/dotfiles/Shortcuts.md"
 alias tui="source ~/tui"
 alias dev="source ~/dev"
 
