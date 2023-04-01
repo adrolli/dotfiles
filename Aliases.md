@@ -74,6 +74,7 @@ Short on time? Use shorter commands:
 - **pamn** instead of `php artisan make:notification`
 - **pacac** instead of `php artisan cache:clear`
 - **pacoc** instead of `php artisan config:clear`
+- **paoc** instead of php artisan optimize:clear
 - **pavic** instead of `php artisan view:clear`
 - **paroc** instead of `php artisan route:clear`
 - **paqf** instead of `php artisan queue:failed`

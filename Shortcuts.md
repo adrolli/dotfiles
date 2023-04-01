@@ -43,6 +43,7 @@ More
 - <kbd>⌘ Command</kbd> + <kbd>⌫ Delete</kbd> to Delete files
 - <kbd>⌘ Command</kbd> + <kbd><</kbd> to switch between open Finder windows
 - <kbd>⌘ Command</kbd> + <kbd>C</kbd> and then <kbd>⌘ Command</kbd> + <kbd>⌥ Option</kbd> + <kbd>V</kbd> to move the file
+- <kbd>⌘ Command</kbd> + <kbd>⇧ Shift</kbd> + <kbd>.</kbd> to toggle showing hidden files and folders
 
 
 
