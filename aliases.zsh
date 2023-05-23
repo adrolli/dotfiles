@@ -6,6 +6,7 @@ alias ali="open -a typora ~/Documents/GitHub/adrolli/dotfiles/Aliases.md"
 alias key="open -a typora ~/Documents/GitHub/adrolli/dotfiles/Shortcuts.md"
 alias tui="source ~/tui"
 alias dev="source ~/dev"
+alias yeah="open -g raycast://confetti"
 
 # Paths
 alias h="cd ~"

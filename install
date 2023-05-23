@@ -41,7 +41,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 echo ' '
 
 # Install NodeJS - https://nodejs.org
-echo 'Install NodeJS - ttps://nodejs.org'
+echo 'Install NodeJS - https://nodejs.org'
 echo '----------------------------------'
 brew install node
 echo ' '
@@ -164,12 +164,6 @@ echo '------------------------------------------'
 brew install --cask raycast
 echo ' '
 
-# Install RapidAPI - https://paw.cloud/
-echo 'Install RapidAPI - https://paw.cloud/'
-echo '-------------------------------------'
-brew install --cask rapidapi
-echo ' '
-
 # Install Microsoft Edge - https://www.microsoft.com/edge
 echo 'Install Microsoft Edge - https://www.microsoft.com/edge'
 echo '-------------------------------------------------------'
@@ -198,12 +192,6 @@ echo ' '
 echo 'Install Invoker from BeyondCode - https://invoker.dev'
 echo '-----------------------------------------------------'
 brew install --cask invoker
-echo ' '
-
-# Install Rectangle Window Manager - https://rectangleapp.com
-echo 'Install Rectangle Window Manager - https://rectangleapp.com'
-echo '------------------------------------------------------------'
-brew install --cask rectangle
 echo ' '
 
 # Install Forklift - https://binarynights.com/
@@ -236,6 +224,48 @@ echo '------------------------------------'
 brew install --cask fontbase
 echo ' '
 
+# Install MySQL Client - https://formulae.brew.sh/formula/mysql-client
+echo 'Install Fontbase - https://formulae.brew.sh/formula/mysql-client'
+echo '------------------------------------'
+brew install --cask mysql-client
+echo ' '
+
+# Install Obsidian - https://obsidian.md
+echo 'Install Obsidian - https://obsidian.md'
+echo '------------------------------------'
+brew install --cask obsidian
+echo ' '
+
+# Install Onyx - https://www.titanium-software.fr/en/onyx.html
+echo 'Install Onyx - https://www.titanium-software.fr/en/onyx.html'
+echo '------------------------------------'
+brew install --cask onyx
+echo ' '
+
+# Install Postman - https://www.postman.com/
+echo 'Install Postman - https://www.postman.com/'
+echo '------------------------------------'
+brew install --cask postman
+echo ' '
+
+# Install Raindrop - https://raindrop.io/
+echo 'Install Raindrop - https://raindrop.io/'
+echo '------------------------------------'
+brew install --cask raindropio
+echo ' '
+
+# Install Snagit - https://www.techsmith.com/screen-capture.html
+echo 'Install Snagit - https://www.techsmith.com/screen-capture.html'
+echo '------------------------------------'
+brew install --cask snagit
+echo ' '
+
+# Install Webex - https://www.webex.com
+echo 'Install Webex - https://www.webex.com'
+echo '------------------------------------'
+brew install --cask webex-meetings
+echo ' '
+
 # Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/
 echo 'Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/'
 echo '-----------------------------------------------------------------------------------------------'
@@ -248,19 +278,19 @@ echo ' '
 # Install my Aliases
 echo 'Install my Aliases'
 echo '------------------'
-cp ~/Documents/GitHub/dotfiles/aliases.zsh ~/.oh-my-zsh/custom
+cp ~/Documents/GitHub/adrolli/dotfiles/aliases.zsh ~/.oh-my-zsh/custom
 echo ' '
 
 # Install my Git config
 echo 'Install my Git config'
 echo '--------------------'
-cp ~/Documents/GitHub/dotfiles/.gitconfig ~/.gitconfig
+cp ~/Documents/GitHub//adrolli/dotfiles/.gitconfig ~/.gitconfig
 echo ' '
 
 # Install my .zshrc
 echo 'Install my .zshrc'
 echo '------------------'
-cp ~/Documents/GitHub/dotfiles/.zshrc ~/
+cp ~/Documents/GitHub//adrolli/dotfiles/.zshrc ~/
 echo ' '
 
 # Restore my config from iCloud
@@ -275,3 +305,6 @@ echo 'Install the tui script'
 echo '----------------------'
 cp ~/Documents/GitHub/dotfiles/tui ~/tui
 echo ' '
+
+# Throw some confetti
+open -g raycast://confetti

@@ -77,25 +77,25 @@ echo ' '
 # Update my Aliases
 echo 'Update my Aliases'
 echo '-----------------'
-cp ~/Documents/GitHub/dotfiles/aliases.zsh ~/.oh-my-zsh/custom
+cp ~/Documents/GitHub/adrolli/dotfiles/aliases.zsh ~/.oh-my-zsh/custom
 echo ' '
 
 # Update my Git config
 echo 'Update my Git config'
 echo '--------------------'
-cp ~/Documents/GitHub/dotfiles/.gitconfig ~/.gitconfig
+cp ~/Documents/GitHub/adrolli/dotfiles/.gitconfig ~/.gitconfig
 echo ' '
 
 # Update my .zshrc
 echo 'Update my .zshrc'
 echo '------------------'
-cp ~/Documents/GitHub/dotfiles/.zshrc ~/
+cp ~/Documents/GitHub/adrolli/dotfiles/.zshrc ~/
 echo ' '
 
 # Update the tui script
 echo 'Update the tui script'
 echo '----------------------'
-cp ~/Documents/GitHub/dotfiles/tui ~/tui
+cp ~/Documents/GitHub/adrolli/dotfiles/tui ~/tui
 echo ' '
 
 # Check for mac updates
@@ -104,3 +104,5 @@ echo '---------------------------------------------------'
 softwareupdate -l
 echo ' '
 
+# Throw some confetti
+open -g raycast://confetti

@@ -44,3 +44,6 @@ echo 'Backed up'
 cp -Rfv ~/Library/Preferences ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/${today}/Preferences/ | wc -l
 echo 'files'
 echo ' '
+
+# Throw some confetti
+open -g raycast://confetti

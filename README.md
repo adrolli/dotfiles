@@ -1,8 +1,17 @@
 # adrolli's dotfiles
 
-I am a web developer preferably working with Laravel and the TALL-Stack using a MacBook Pro 16 running on MacOS Ventura.
+I am a digital nomad web developer preferably working with Laravel and the TALL-Stack using a mobile-optimized setup
 
-My setup is optimized for mobile productivity. I use an iPad Pro as second screen, a Twelve South Curve Flex desktop stand, a Twelve South Hover Bar Duo for the iPad, and the Apple Magic Keyboard and Mouse. All these things fit in my Osprey Backpack.
+- a MacBook Pro 16 M1 running on MacOS Ventura
+- an iPad Pro, mostly as second screen
+- a Twelve South Curve Flex desktop stand
+- a Twelve South Hover Bar Duo for the iPad
+- the Apple Magic Keyboard and Mouse
+- Apple AirPods
+- the iPhone Pro 14
+- and an Apple Watch 8
+
+all these things fit in my Osprey Backpack.
 
 ## Dotfiles?
 
@@ -11,18 +20,20 @@ OK, but what is this repo for?
 Working with the Terminal, VS Code and some other software is more efficent, if you prepare your machine with some shortcuts like aliases, keybindings etc. Another good thing is to have commands that help you to keep your machine up to date or reinstall everthing on a new Mac without pain.
 
 - **.gitconfig** is my Git configuration
-- **[Aliases.md](Aliases.md)** is the readme file to remember my aliases
+- **[Aliases.md](Aliases.md)** to remember my aliases
 - **README.md** is the file you are currently reading
-- **[Shortcuts.md](Shortcuts.md)** is the readme file to remember my keybindings
+- **[Shortcuts.md](Shortcuts.md)** to remember my keybindings
 - **aliases.zsh** are my aliases, copied to the ZSH Custom folder
-- **backup** saves my config files to iCloud, restore is made by install
+- **backup** saves my config to iCloud, restore is made by install
 - **install** is my install script, it will install a lot of tools
 - **tui** starts my dev project TallUI and throws some confetti
 - **update** is my update script, that will keep my mac up to date
 
+You can learn from this repo, use it as is or - probably the best idea - fork it, and create your own dotfiles to automate whatever you want on your Mac.
+
 ## Installing
 
-Press <kbd>Command</kbd> + <kbd>Space</kbd> and enter Terminal, then run following commands
+Press <kbd>Command</kbd> + <kbd>Space</kbd> and enter ```Terminal```, then run following commands
 
 ```bash
 cd ~/Documents/GitHub/
@@ -31,28 +42,87 @@ cd dotfiles
 bash install
 ```
 
-This will install Homebrew and a lot of Software from PHP to VS Code and Github Desktop. It is probably a good idea to fork the repo and make some adjustments to the install script before running it.
+This will install Homebrew and a lot of Software from PHP to VS Code and Github Desktop.
 
 ## Software
 
-This is the software I use on my Mac. The Homebrew part is handled by the install script.
+This is the software I use on my Mac:
 
-- [Homebrew](https://brew.sh/) via Terminal / Install Script (installs Chrome, Typora, PHP, Composer, Laravel Valet, PHP Monitor, DBngin, TablePlus, VSCode, Github Desktop, iTerm2, Oh my Zsh, NodeJS, Slack, The Fuck, Teamviewer, Docker, Firefox, Microsoft Teams, Raycast, RapidAPI, Tinkerwell, Helo, Invoker, Rectangle, Forklift, 1password, 1password-cli, Spotify, Fontbase)
-- [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store (Word, Excel, Outlook, Powerpoint, OneNote and OneDrive)
-- [Adobe Creative Cloud](https://www.adobe.com/) (Photoshop, Illustrator, InDesign, Premiere, AfterEffects, Lightroom Classic, Acrobat, XD, Media Encoder)
+- My install script installs
+  -  [Homebrew](https://brew.sh/) 
+  - [Oh my Zsh](https://ohmyz.sh)
+  - [Composer](https://getcomposer.org)
+  - [Laravel Valet](https://laravel.com/docs/valet)
+  - [Powerline Font](https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/)
+- as well as everything [Homebrew](https://brew.sh/) 
+  - [Chrome](https://www.google.com/chrome)
+  - [Typora](https://www.google.com/chrome)
+  - [PHP](https://php.net)
+  - [PHP Monitor](https://github.com/nicoverbruggen/phpmon)
+  - [DBngin](https://dbngin.com)
+  - [TablePlus](https://tableplus.com)
+  - [VSCode](https://code.visualstudio.com)
+  - [Github Desktop](https://desktop.github.com)
+  - [iTerm2](https://iterm2.com)
+  - [NodeJS](https://nodejs.org)
+  - [Slack](https://slack.com)
+  - [The Fuck](https://github.com/nvbn/thefuck)
+  - [Teamviewer](https://www.teamviewer.com)
+  - [Docker](https://www.docker.com)
+  - [Firefox](https://www.mozilla.org)
+  - [Microsoft Teams](https://www.microsoft.com/microsoft-teams/)
+  - [Raycast](https://www.raycast.com/)
+  - [Microsoft Edge](https://www.microsoft.com/edge)
+  - [Spatie Ray](https://www.myray.app)
+  - [Tinkerwell](https://www.tinkerwell.app)
+  - [Helo](https://usehelo.com)
+  - [Invoker](https://invoker.dev)
+  - [Forklift](https://binarynights.com/)
+  - [1Password](https://1password.com)
+  - [1Password-cli](https://1password.com/de/downloads/command-line)
+  - [Spotify](https://spotify.com)
+  - [Fontbase](https://fontba.se)
+  - [MySQL Client](https://formulae.brew.sh/formula/mysql-client)
+  - [Obsidian](https://formulae.brew.sh/cask/obsidian)
+  - [Onyx](https://www.titanium-software.fr/en/onyx.html)
+  - [Postman](https://www.postman.com/)
+  - [Raindrop](https://raindrop.io/)
+  - [Snagit](https://www.techsmith.com/screen-capture.html)
+  - [Webex](https://www.webex.com)
+  - [Lulu](https://formulae.brew.sh/cask/lulu), testing, not added to install script
+  - [AdGuard](https://formulae.brew.sh/cask/adguard), testing, not added to install script
+- [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store installls
+  - Word
+  - Excel
+  - Outlook
+  - Powerpoint
+  - OneNote
+  - OneDrive
+- [Adobe Creative Cloud](https://www.adobe.com/) from adobe.com installs 
+  - Photoshop
+  - Illustrator
+  - InDesign
+  - Premiere
+  - AfterEffects
+  - Lightroom Classic
+  - Acrobat
+  - XD
+  - Media Encoder
 - [Toggl Track](https://apps.apple.com/us/app/toggl-track-hours-time-log/id1291898086) from Mac App Store
-- [Telephone](https://www.64characters.com/telephone/) from Mac App Store
 - [Skipper](https://www.skipper18.com/) from their website
 - [DaisyDisk](https://daisydiskapp.com/) from their website
+- [Clinq](https://www.clinq.com) form their website
+
+
 
 ## Settings
 
-Using the backup-script, all preferences should be backed up in iCloud or managed this repo. Some important settings are:
+Using the backup-script, all preferences should be backed up in iCloud or managed this repo. Some of my default settings are:
 
 - General -> Software Update -> Enable Automatic Update (MacOS as well as Apps from App Store)
 - Appearance -> Dark, Multicolor
 - Background -> Ventura Dark
-- Trackpad -> Tap to Click (but how to drag-and-drop, e. g. Install software?)
+- Trackpad -> Tap to Click
 - Setup [Sidecar](https://support.apple.com/HT210380)
   - iPad on the right side
   - Sidebar -> right
@@ -72,80 +142,78 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - Change to a Powerline Font in iTerm and VS Code, see https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/
 - GitHub Desktop Menu -> Install Command Line Tool
 
-## Decisions
 
+
+## More information
+
+- These contents may be one or more blogposts. As my blog is currently in stealth mode, I leave it here for now.
 - I brew ehm install every software possible with [Homebrew](https://brew.sh). I wrote a really simple update script that keeps my dev environment, apps and Homebrew itself up-to-date. For Mac OS and all software from App Store I have auto-updates enabled. So [MacUpdater](https://www.corecode.io/macupdater/) is not needed, even if I consider such tools useful.
-- I decided not to use [MacKeeper](https://mackeeper.com/) or any other AntiVirus or Security Software but instead use [DaisyDisk](https://daisydiskapp.com/) to clean my MacBook
+- I decided not to use [MacKeeper](https://mackeeper.com/) or any other AntiVirus or Security Software but instead use [DaisyDisk](https://daisydiskapp.com/) to clean my MacBook.
+- As an alternative to an AntiVirus Software I currently test, which Firewall will do the job. Blocking outgoing network traffic and controlling all incoming traffic is probably the best way, to ensure that no malware will be able to expose sensitive information to the internet. There is [Little Snitch](https://formulae.brew.sh/cask/little-snitch) ($69), [Network Radar](https://formulae.brew.sh/cask/network-radar) (19 €, also availabe for iOS) and [Lulu](https://formulae.brew.sh/cask/lulu) (free). Starting with Lulu.
+- I believe Apple's default antivirus, called XProtect and an application firewall, like those mentioned before, are capable to protect me as an IT expert. If I was unsure I would probably to with Avira, Avast or [one of these](https://www.av-test.org/de/antivirus/privat-macos/).
+- I also test [AdGuard](https://adguard.com/en/license.html), that also blocks harmful websites. But the main purpose for me is to watch Youtube Ad-free. I have not yet installed the [browser extension](https://chrome.google.com/webstore/detail/adguard-browser-assistant/fbohpolgemkbfphodcfgnpjcmedcjhpn) nor the iOS Apps.
+- A propos browser extensions. I did a big cleanup and removed most of the unused stuff like Builtwith and WhatRuns (see https://www.ryrob.com/builtwith-alternatives/) as well as Grammarly (non-German).
 - I prefer [Laravel Valet](https://laravel.com/docs/valet) over [Laravel Sail](https://laravel.com/docs/sail) or [Laravel Homestead](https://laravel.com/docs/homestead). It is really fast and together with PHP Monitor and DBngin it is so delightful to manage multiple Laravel projects.
-- I prefer [Raycast](https://www.raycast.com/) over [Alfred](https://www.alfredapp.com/), it seems more powerful and for what I need, it is free.
+- I prefer [Raycast](https://www.raycast.com/) over [Alfred](https://www.alfredapp.com/), it seems more powerful and for what I need, it is free. It is also my window manager.
 - I chose not to use [Mackup](https://github.com/lra/mackup) to backup my settings, instead I use my own backup script.
 - I chose not to use Time Machine or other backup software. I use iCloud, OneDrive, Adobe Cloud and GitHub to ensure that every file, which I would miss immensely, exists in two independent places.
 - I made the switch from PHPStorm to VS Code because I love how fast and simple VS Code is. With my [Laravel and TALL-Stack Extension Pack for VS Code](https://github.com/adrolli/tallui-vscode) I do not miss a thing.
 - I chose [RapidAPI](https://paw.cloud/) (formerly Paw) instead of [Postman](https://www.postman.com/) because of curiosity. I do not need it very often and it just works a bit faster.
 - I installed Firefox and Edge for testing purposes. I plan to do the switch to Safari, but for now I stick with Google Chrome, because I am used to it.
 - After buying and watching the [Make VS Code Awesome Course](https://makevscodeawesome.com/) by Caleb Porzio, i decided to start with the [Palenight Theme](https://vscodethemes.com/e/whizkydee.material-palenight-theme/palenight-italic?language=javascript) for VS Code but stay on [Solarized Dark Theme (Patched)](https://iterm2colorschemes.com/) with iTerm2 (even if Palenight is available for iTerm).
-- I use the free OSS version of [Rectangle](https://github.com/rxhanson/Rectangle) (OSS, but Freemium) as [Window Manager](https://www.makeuseof.com/tag/best-mac-window-management-tools/), not a commercial one like [MOOM](https://manytricks.com/moom/) or [Yabai](https://github.com/koekeishiya/yabai) (FOSS but need disable security features of MacOS) or [Amethyst](https://ianyh.com/amethyst/) (FOSS but not for me as auto-placement, lack of important settings and no mouse support)
-- I use [Forklift 3](https://binarynights.com/) as [File Manager](https://www.macgasm.net/software/file-manager-mac/) and Finder replacement. All others are Total Commander clones (I hate the Commander style for decades), ship without darkmode (impossible to use for me, I am darkmode addicted), or lack features like managing a lot of SFTP or Cloud connections.
-- For SIP calls with my local phone number I used Skype for a couple of years. It was OK on Windows and Android but for Mac and iPhone I wanted to get rid of it (and the unnecessary Spam that comes with). As SIP-provider I tested Sipgate (much to expensive, no offer for Freelancers), [Placetel](https://placetel.de/) (OK, but the clients styling is not mine, lacking darkmode), so I decided for [Fonial](https://www.fonial.de/). Fonial is the cheapest. They do not offer SIP-clients. I tested [Clinq](https://clinq.com/) (nice but currently Beta and then much to expensive) and decided for [Telephone](https://www.64characters.com/telephone/) for Mac and [Groundwire](https://apps.apple.com/de/app/acrobits-groundwire/id378503081) for iPhone.
+- I use [Forklift 3](https://binarynights.com/) as [File Manager](https://www.macgasm.net/software/file-manager-mac/) and Finder replacement. Forklift is also my choice for SFTP connections, iCloud, OneDrive and other Cloud connections.
+- For SIP calls with my local phone number I use [Placetel](https://placetel.de/) with [Clinq](https://clinq.com/) for Mac and iPhone. Clinq is also connect to [Swyx](https://www.swyx.com) (at the company I mostly work for).
+- I currently test [Obsidian](https://formulae.brew.sh/cask/obsidian) for auto-dailies and all kind of documentation in Markdown. It has also the potential to replace Typora as my favorite Markdown-editor.
+- I am currently optimizing Keybindings, using Caleb Porzio's advice in [VS Code is Awesome](https://makevscodeawesome.com/).
+- I will problably test a Shortcut / Keybindings Manager - because of things like not able to ESC'ing Outlook Windows and doing more interesting stuff like controlling scripts - https://karabiner-elements.pqrs.org/ watch https://www.youtube.com/watch?v=uaJSjgVEhMQ
+- I will probably default to **Command+Option+Shift+V** to paste without styles, in VS Code and others.
+- Settings are backuped but could also be set, like https://github.com/freekmurze/dotfiles/blob/main/macos/set-defaults.sh. Maybe a way to go for me, too.
+- I have to clean up my OneDrive (where is Mastering Laravel Validation Rules? There are several places for Software and Courses) and there is an absolute chaos in my Photos and Videos folders before ...
+- I sync everything to a second place (iCloud, Dropbox, Nextcloud or a Synology NAS, we'll see).
+- I will soon replace the tui script with the following dev script ...
 
-## Dev Scripts
+
+
+## Dev Script (w-i-p)
 
 A pretty annoying thing is to switch projects. It is not only switching from one project to another in VS Code. It is a bunch of things like:
 
 - cd'ing to the project folder in Terminal
+- Opening the project folder in Forklift
 - Start VS Code
 - Start GitHub Desktop
 - Open the main README.md with Typora
 - Change PHP Version, Project folder in Valet or run Sail
 - Run `npm run dev` to get Vite up
-- Maybe there are other things like Skipper, Ray, Invoker, Helo ...
+- Maybe there are other things like Vemto, Skipper, Ray, Invoker, Helo ...
 
-That is all done by my dev-Scripts. Do it like:
+That all should be possible by one dev script:
 
-- **dev dot** to develop these dotfiles using VS Code, Typora and GitHub
-- **dev tui full** (or just for this project even shorter `tui full`), to run all things mentioned above
+- It should be easy to manage available projects, they should have short "slugs" like tui, dot, cockpit, prio
+- For examle **dev dot** should open my dotfiles in VS Code, Typora and GitHub and run Vite
+- while **dev tui full** should also open Vemto, Skipper, Ray, Invoker and Help, if applicable
 
-## Todo
+A starting point would be:
 
-- Uninstall Skype after Porting to Fonial is finished
-- Add Git, current version, see https://gist.github.com/kamermanpr/23bc20180dc277bc8043558f0c22f8a9
-- Learn Raycast, https://manual.raycast.com/hotkey, use as Window Manager, too? Ditch Rectangle then...
-- Install https://gfycat.com/gifbrewery, first time you need it
-- Do I need https://nodemailer.com/ ... most probably replaced by Helo
-- Test Laravel Sail
-- Install heco VPN, [Swyx](https://apps.apple.com/de/app/swyx-desktop/id1029922555?mt=12) and comWORK using [Wine](https://www.winehq.org/), [Crossover](https://www.codeweavers.com/crossover) or [Parallels](https://www.parallels.com/de/)
-- Try [PI Hole](https://github.com/pi-hole/pi-hole) or https://adguard.com/en/license.html
-- Try https://c-command.com/toothfairy/, or skip because it is already working like a charm
-- https://www.telestream.net/screenflow/overview.htm is something to remember?
-- Short access to todos, devlog, daily by using aliases and keybindings
-- Use [SSH Profiles](https://hiltmon.com/blog/2013/07/18/fast-ssh-windows-with-iterm-2/) including passwords in [Mac Password Manager](https://support.apple.com/de-de/guide/mac-help/mchlf375f392/mac)
-- Optimize Keybindings, probably book [VS Code is Awesome](https://makevscodeawesome.com/) or look at Freeks Theming
-- Use a Shortcut / Keybindings Manager - because of things like not able to ESC'ing Outlook Windows and doing more interesting stuff like controlling scripts - https://karabiner-elements.pqrs.org/ watch https://www.youtube.com/watch?v=uaJSjgVEhMQ
-- Try better [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais) from VS Code, or skip because your scripts are awesome enough
-- Try **Command+Option+Shift+V** = Paste without styles, in VS Code?
-- Settings are backuped but could also be set, like https://github.com/freekmurze/dotfiles/blob/main/macos/set-defaults.sh
-- [Clear Chrome](https://www.privateinternetaccess.com/blog/how-to-delete-your-saved-passwords-on-every-browser/) from all passwords, migrate all from Authy (and one or two in Google Authenticator?), clean up 1password
-- Clean up OneDrive (where is Mastering Laravel Validation Rules? There are several places for Software and Courses)
-- Sync everything to a second place (iCloud or Dropbox?)
+- A projects file, where all projects (slugs, full-name and path) are registered
+- A `dev` script to run the project
+  - Look into the projects file to find the path
+  - cd into this path
+  - Run VS Code, Typora and GitHub and Vite, if detected
+  - If running in full mode
+    - Check if there is a Vemto or Skipper file and run it
+    - Start Ray and Invoker (maybe)
+    - Start Helo (depending on .env?)
+
+An alternative would be using Raycast for this.
+
+
 
 ## Inspiration
 
 - Freek van der Herten is one of the most productive Laravel devs out there, his [dotfiles](https://github.com/freekmurze/dotfiles) and his [setup](https://freek.dev/2357-my-current-setup-end-2022-edition).
 - Laravel core dev Dries Vints has [dotfiles](https://github.com/driesvints/dotfiles) and a [blogpost](https://driesvints.com/blog/getting-started-with-dotfiles/) about it. Tayler Otwell shares his [setup](https://medium.com/@taylorotwell/how-i-work-october-2018-edition-e66a09931e7f).
-- Caleb Porzio also shares his [VS Code setup](https://calebporzio.com/my-vs-code-setup-2) and has an interesting course: https://makevscodeawesome.com/
+- Caleb Porzio also shares his [VS Code setup](https://calebporzio.com/my-vs-code-setup-2) and has an interesting [VS Code course](https://makevscodeawesome.com/)
 - The most forked dotfiles are from [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) and [Zach Holman](https://github.com/holman/dotfiles), Zach wrote an [interesting article](https://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 - https://dev.to/scriptmint/my-macbook-setup-for-development-3088
 - https://mikemadison.net/blog/2020/7/21/setting-up-a-new-macbook-pro-for-local-development
-
-## iPad Pro
-
-Mostly used as second screen for my mobile dual screen setup with Sidecar, https://support.apple.com/en-us/HT210380. Some Apps for Reading, Video and Painting (Adobe) maybe ...
-
-## iPhone
-
-- Chrome and Google Maps
-- Fonial with [SIP App](https://www.fonial.de/hilfe/funktionen/mobile-integration/mobile-integration-ios), like [Groundwire](https://apps.apple.com/de/app/acrobits-groundwire/id378503081)
-- Sparkasse, Paypal
-- 1Password
-- Slack
-- Whatsapp
