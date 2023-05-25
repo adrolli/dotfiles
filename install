@@ -25,7 +25,6 @@ echo ' '
 touch $HOME/.hushlogin
 echo ' '
 
-# Install Homebrew - https://brew.sh
 echo 'Install Homebrew - https://brew.sh'
 echo '----------------------------------'
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -34,25 +33,21 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/alfdrollinger/.zprofi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 echo ' '
 
-# Install Oh My Zsh - https://ohmyz.sh
 echo 'Install Oh My Zsh - https://ohmyz.sh'
 echo '------------------------------------'
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo ' '
 
-# Install NodeJS - https://nodejs.org
 echo 'Install NodeJS - https://nodejs.org'
 echo '----------------------------------'
 brew install node
 echo ' '
 
-# Install PHP latest - https://php.net
 echo 'Install PHP latest - https://php.net'
 echo '------------------------------------'
 brew install php
 echo ' '
 
-# Install Composer - https://getcomposer.org
 echo 'Install Composer - https://getcomposer.org'
 echo '------------------------------------------'
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -64,7 +59,6 @@ sudo mv composer.phar /usr/local/bin/composer
 export PATH=$PATH:~/.composer/vendor/bin
 echo ' '
 
-# Install Laravel Valet - https://laravel.com/docs/valet
 echo 'Install Laravel Valet - https://laravel.com/docs/valet'
 echo '------------------------------------------------------'
 composer global require laravel/valet
@@ -72,7 +66,6 @@ valet install
 sudo valet trust
 echo ' '
 
-# Install PHP Monitor - https://github.com/nicoverbruggen/phpmon
 echo 'Install PHP Monitor - https://github.com/nicoverbruggen/phpmon'
 echo '--------------------------------------------------------------'
 brew tap nicoverbruggen/homebrew-cask
@@ -80,194 +73,162 @@ brew install --cask phpmon
 sudo chown "$(whoami)" /usr/local/bin
 echo ' '
 
-# Install Google Chrome - https://www.google.com/chrome
 echo 'Install Google Chrome - https://www.google.com/chrome'
 echo '-----------------------------------------------------'
 brew install --cask google-chrome
 echo ' '
 
-# Install DBngin - https://dbngin.com
 echo 'Install DBngin - https://dbngin.com'
 echo '-----------------------------------'
 brew install --cask dbngin
 echo ' '
 
-# Install TablePlus - https://tableplus.com
 echo 'Install TablePlus - https://tableplus.com'
 echo '-----------------------------------------'
 brew install --cask tableplus
 echo ' '
 
-# Install Visual Studio Code - https://code.visualstudio.com
 echo 'Install Visual Studio Code - https://code.visualstudio.com'
 echo '----------------------------------------------------------'
 brew install --cask visual-studio-code
 echo ' '
 
-# Install Typora - https://typora.io
 echo 'Install Typora - https://typora.io'
 echo '----------------------------------'
 brew install --cask typora
 echo ' '
 
-# Install Github Desktop - https://desktop.github.com
 echo 'Install Github Desktop - https://desktop.github.com'
 echo '---------------------------------------------------'
 brew install --cask github
 echo ' '
 
-# Install iTerm2 - https://iterm2.com
 echo 'Install iTerm2 - https://iterm2.com'
 echo '-----------------------------------'
 brew install --cask iterm2
 echo ' '
 
-# Install Slack - https://slack.com
 echo 'Install Slack - https://slack.com'
 echo '----------------------------------------'
 brew install --cask slack
 echo ' '
 
-# Install The Fuck - https://github.com/nvbn/thefuck
 echo 'Install The Fuck - https://github.com/nvbn/thefuck'
 echo '--------------------------------------------------'
 brew install --cask thefuck
 echo ' '
 
-# Install Teamviewer - https://www.teamviewer.com
 echo 'Install Teamviewer - https://www.teamviewer.com'
 echo '--------------------------------------------------'
 brew install --cask teamviewer
 echo ' '
 
-# Install Docker - https://www.docker.com
 echo 'Install Docker - https://www.docker.com'
 echo '----------------------------------------'
 brew install --cask docker
 echo ' '
 
-# Install Firefox - https://www.mozilla.org
 echo 'Install Firefox - https://www.mozilla.org'
 echo '-----------------------------------------'
 brew install --cask firefox
 echo ' '
 
-# Install Microsoft Teams - https://www.microsoft.com/microsoft-teams/
 echo 'Install Microsoft Teams - https://www.microsoft.com/microsoft-teams/'
 echo '--------------------------------------------------------------------'
 brew install --cask microsoft-teams
 echo ' '
 
-# Install Raycast - https://www.raycast.com/
 echo 'Install Raycast - https://www.raycast.com/'
 echo '------------------------------------------'
 brew install --cask raycast
 echo ' '
 
-# Install Microsoft Edge - https://www.microsoft.com/edge
 echo 'Install Microsoft Edge - https://www.microsoft.com/edge'
 echo '-------------------------------------------------------'
 brew install --cask microsoft-edge
 echo ' '
 
-# Install Ray from Spatie - https://www.myray.app
 echo 'Install Ray from Spatie - https://www.myray.app'
 echo '-----------------------------------------------'
 brew install --cask ray
 echo ' '
 
-# Install Tinkerwell from BeyondCode - https://www.tinkerwell.app
 echo 'Install Tinkerwell from BeyondCode - https://www.tinkerwell.app'
 echo '---------------------------------------------------------------'
 brew install --cask tinkerwell
 echo ' '
 
-# Install Helo from BeyondCode - https://usehelo.com
 echo 'Install Helo from BeyondCode - https://usehelo.com'
 echo '--------------------------------------------------'
 brew install --cask helo
 echo ' '
 
-# Install Invoker from BeyondCode - https://invoker.dev
 echo 'Install Invoker from BeyondCode - https://invoker.dev'
 echo '-----------------------------------------------------'
 brew install --cask invoker
 echo ' '
 
-# Install Forklift - https://binarynights.com/
 echo 'Install Forklift - https://binarynights.com/'
 echo '--------------------------------------------'
 brew install --cask forklift
 echo ' '
 
-# Install 1password - https://1password.com/
 echo 'Install 1password - https://1password.com'
 echo '-----------------------------------------'
 brew install --cask 1password
 echo ' '
 
-# Install 1password CLI - https://1password.com/de/downloads/command-line
 echo 'Install 1password CLI - https://1password.com/de/downloads/command-line'
 echo '-----------------------------------------------------------------------'
 brew install --cask 1password-cli
 echo ' '
 
-# Install Spotify - https://spotify.com
 echo 'Install Spotify - https://spotify.com'
 echo '-------------------------------------'
 brew install --cask spotify
 echo ' '
 
-# Install Fontbase - https://fontba.se
 echo 'Install Fontbase - https://fontba.se'
 echo '------------------------------------'
 brew install --cask fontbase
 echo ' '
 
-# Install MySQL Client - https://formulae.brew.sh/formula/mysql-client
 echo 'Install Fontbase - https://formulae.brew.sh/formula/mysql-client'
 echo '------------------------------------'
 brew install --cask mysql-client
 export PATH=$PATH:/opt/homebrew/opt/mysql-client/bin
 echo ' '
 
-# Install Obsidian - https://obsidian.md
 echo 'Install Obsidian - https://obsidian.md'
 echo '------------------------------------'
 brew install --cask obsidian
 echo ' '
 
-# Install Onyx - https://www.titanium-software.fr/en/onyx.html
 echo 'Install Onyx - https://www.titanium-software.fr/en/onyx.html'
 echo '------------------------------------'
 brew install --cask onyx
 echo ' '
 
-# Install Postman - https://www.postman.com/
 echo 'Install Postman - https://www.postman.com/'
 echo '------------------------------------'
 brew install --cask postman
 echo ' '
 
-# Install Raindrop - https://raindrop.io/
 echo 'Install Raindrop - https://raindrop.io/'
 echo '------------------------------------'
 brew install --cask raindropio
 echo ' '
 
-# Install Snagit - https://www.techsmith.com/screen-capture.html
 echo 'Install Snagit - https://www.techsmith.com/screen-capture.html'
 echo '------------------------------------'
 brew install --cask snagit
 echo ' '
 
-# Install Webex - https://www.webex.com
 echo 'Install Webex - https://www.webex.com'
 echo '------------------------------------'
 brew install --cask webex-meetings
 echo ' '
 
-# Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/
 echo 'Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/'
 echo '-----------------------------------------------------------------------------------------------'
 git clone https://github.com/powerline/fonts.git
@@ -276,36 +237,30 @@ cd fonts
 cd .. && rm -rf fonts
 echo ' '
 
-# Install my Aliases
-echo 'Install my Aliases'
-echo '------------------'
+echo 'Copy Aliases'
+echo '------------'
 cp ~/Documents/GitHub/adrolli/dotfiles/aliases.zsh ~/.oh-my-zsh/custom
 echo ' '
 
-# Install my Git config
-echo 'Install my Git config'
-echo '--------------------'
+echo 'Copy Git config'
+echo '---------------'
 cp ~/Documents/GitHub//adrolli/dotfiles/.gitconfig ~/.gitconfig
 echo ' '
 
-# Install my .zshrc
-echo 'Install my .zshrc'
-echo '------------------'
+echo 'Copy .zshrc'
+echo '-----------'
 cp ~/Documents/GitHub//adrolli/dotfiles/.zshrc ~/
 echo ' '
 
-# Restore my config from iCloud
-echo 'Restore my config from iCloud'
-echo '-----------------------------'
+echo 'Restore config from iCloud'
+echo '--------------------------'
 cp -Rfv ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/latest/Preferences/ ~/Library/Preferences | wc -l
 echo 'files restored'
 echo ' '
 
-# Install the tui script
-echo 'Install the tui script'
-echo '----------------------'
+echo 'Copy the tui script'
+echo '-------------------'
 cp ~/Documents/GitHub/dotfiles/tui ~/tui
 echo ' '
 
-# Throw some confetti
 open -g raycast://confetti
