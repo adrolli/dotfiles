@@ -228,6 +228,7 @@ echo ' '
 echo 'Install Fontbase - https://formulae.brew.sh/formula/mysql-client'
 echo '------------------------------------'
 brew install --cask mysql-client
+export PATH=$PATH:/opt/homebrew/opt/mysql-client/bin
 echo ' '
 
 # Install Obsidian - https://obsidian.md
