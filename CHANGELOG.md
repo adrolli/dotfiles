@@ -2,6 +2,11 @@
 
 All changes to my .dotfiles will be noted here:
 
+## 2023-05-25
+
+- Removed all uneccessary comments
+- Export path for mysql-dump
+
 ## 2023-05-22
 
 - Celebrate a pretty stable environment
@@ -9,11 +14,11 @@ All changes to my .dotfiles will be noted here:
 - Improved README.md for better readability
 - Sorted and cleaned Shortcuts.md
 - Removed Skype: `brew uninstall skype`, my local phone number is ported to Placetel
-- Removed Rectangle: `brew uninstall rectangle`, 
+- Removed Rectangle: `brew uninstall rectangle`,
   - replaced by Raycast's window manager features
-- Removed Telephone (App Store), 
+- Removed Telephone (App Store),
   - replaced by Clinq (downloaded from their website)
-- Removed RapidAPI (aka Paw): `brew uninstall rapidapi`, 
+- Removed RapidAPI (aka Paw): `brew uninstall rapidapi`,
   - replaced by Postman: `brew install --cask postman`
 - Added MySQL Client: `brew install mysql-client`
 - Added Obsidian: `brew install --cask obsidian`

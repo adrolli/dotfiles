@@ -1,8 +1,5 @@
 #!/bin.bash
 
-# this is my update script. before running it, remove or add things to update on your Mac, so it will fit your needs.
-
-# do some nice ascii art thing
 echo ' '
 echo ' '
 echo '            _              _    _       '     
@@ -17,11 +14,9 @@ echo 'This will update many things.'
 echo 'Use it at your own risk!'
 echo ' '
 
-# make sure we are able to do things
 sudo -v
 echo ' '
 
-# stop services (valet runs with sudo!)
 echo 'Stop services'
 echo '-------------'
 brew services stop php
@@ -29,37 +24,31 @@ sudo brew services stop nginx
 sudo brew services stop dnsmasq
 echo ' '
 
-# Update Homebrew - https://brew.sh
 echo 'Self-update Homebrew'
 echo '--------------------'
 brew update
 echo ' '
 
-# Update all casks and formulas
-echo 'Update all things'
-echo '-----------------'
+echo 'Update all casks and formulas'
+echo '-----------------------------'
 brew upgrade
 echo ' '
 
-# Show all outdated casks and formulas
 echo 'Anything outdated?'
 echo '------------------'
 brew outdated 
 echo ' '
 
-# Cleanup
 echo 'Cleanup Homebrew'
 echo '----------------'
 brew cleanup
 echo ' '
 
-# List all services
-echo 'List all things'
-echo '---------------'
+echo 'List all things homebrewn'
+echo '-------------------------'
 brew list
 echo ' '
 
-# Start services (valet runs with sudo!)
 echo 'Start services'
 echo '--------------'
 brew services start php
@@ -67,42 +56,35 @@ sudo brew services start nginx
 sudo brew services start dnsmasq
 echo ' '
 
-# Update Laravel Valet - https://laravel.com/docs/valet'
 echo 'Update Laravel Valet'
 echo '--------------------'
 composer global require laravel/valet
 valet install
 echo ' '
 
-# Update my Aliases
-echo 'Update my Aliases'
-echo '-----------------'
+echo 'Update Aliases'
+echo '--------------'
 cp ~/Documents/GitHub/adrolli/dotfiles/aliases.zsh ~/.oh-my-zsh/custom
 echo ' '
 
-# Update my Git config
-echo 'Update my Git config'
-echo '--------------------'
+echo 'Update Git config'
+echo '-----------------'
 cp ~/Documents/GitHub/adrolli/dotfiles/.gitconfig ~/.gitconfig
 echo ' '
 
-# Update my .zshrc
-echo 'Update my .zshrc'
-echo '------------------'
+echo 'Update .zshrc'
+echo '-------------'
 cp ~/Documents/GitHub/adrolli/dotfiles/.zshrc ~/
 echo ' '
 
-# Update the tui script
 echo 'Update the tui script'
 echo '----------------------'
 cp ~/Documents/GitHub/adrolli/dotfiles/tui ~/tui
 echo ' '
 
-# Check for mac updates
 echo 'Mac Updates? Install using softwareupdate -i [NAME]'
 echo '---------------------------------------------------'
 softwareupdate -l
 echo ' '
 
-# Throw some confetti
 open -g raycast://confetti

@@ -1,8 +1,5 @@
 #!/bin.bash
 
-# this is my backup script. before running it, remove or add things to backup on your Mac, so it will fit your needs.
-
-# do some nice ascii art thing
 echo ' '
 echo ' '
 echo '            _              _    _       '     
@@ -17,11 +14,9 @@ echo 'This will backup all config.'
 echo 'and save it to iCloud.'
 echo ' '
 
-# make sure we are able to do things
 sudo -v
 echo ' '
 
-# Create the backup folder
 echo 'Create the backup folder'
 echo '------------------------'
 today=$(date +"%Y-%m-%d")
@@ -29,14 +24,12 @@ echo 'Backup to ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/'$t
 mkdir ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/${today}/
 echo ' '
 
-# Create the latest link
 echo 'Create the latest link'
 echo '----------------------'
 rm ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/latest/
 ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/${today}/ ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/latest
 echo ' '
 
-# Backup MacOS Preferences
 echo 'Backup MacOS Preferences'
 echo '------------------------'
 echo ' '
@@ -45,5 +38,4 @@ cp -Rfv ~/Library/Preferences ~/Library/Mobile\ Documents/com~apple~CloudDocs/Ma
 echo 'files'
 echo ' '
 
-# Throw some confetti
 open -g raycast://confetti
