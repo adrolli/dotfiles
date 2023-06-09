@@ -33,7 +33,7 @@ You can learn from this repo, use it as is or - probably the best idea - fork it
 
 ## Installing
 
-Press <kbd>Command</kbd> + <kbd>Space</kbd> and enter ```Terminal```, then run following commands
+Press <kbd>Command</kbd> + <kbd>Space</kbd> and enter `Terminal`, then run following commands
 
 ```bash
 cd ~/Documents/GitHub/
@@ -49,12 +49,12 @@ This will install Homebrew and a lot of Software from PHP to VS Code and Github 
 This is the software I use on my Mac:
 
 - My install script installs
-  -  [Homebrew](https://brew.sh/) 
+  - [Homebrew](https://brew.sh/)
   - [Oh my Zsh](https://ohmyz.sh)
   - [Composer](https://getcomposer.org)
   - [Laravel Valet](https://laravel.com/docs/valet)
   - [Powerline Font](https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/)
-- as well as everything [Homebrew](https://brew.sh/) 
+- as well as everything [Homebrew](https://brew.sh/)
   - [Chrome](https://www.google.com/chrome)
   - [Typora](https://www.google.com/chrome)
   - [PHP](https://php.net)
@@ -89,6 +89,7 @@ This is the software I use on my Mac:
   - [Raindrop](https://raindrop.io/)
   - [Snagit](https://www.techsmith.com/screen-capture.html)
   - [Webex](https://www.webex.com)
+  - [Redis](https://redis.com), type `redis-server` to start Redis
   - [Lulu](https://formulae.brew.sh/cask/lulu), testing, not added to install script
   - [AdGuard](https://formulae.brew.sh/cask/adguard), testing, not added to install script
 - [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store installls
@@ -98,7 +99,7 @@ This is the software I use on my Mac:
   - Powerpoint
   - OneNote
   - OneDrive
-- [Adobe Creative Cloud](https://www.adobe.com/) from adobe.com installs 
+- [Adobe Creative Cloud](https://www.adobe.com/) from adobe.com installs
   - Photoshop
   - Illustrator
   - InDesign
@@ -112,8 +113,6 @@ This is the software I use on my Mac:
 - [Skipper](https://www.skipper18.com/) from their website
 - [DaisyDisk](https://daisydiskapp.com/) from their website
 - [Clinq](https://www.clinq.com) form their website
-
-
 
 ## Settings
 
@@ -142,8 +141,6 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - Change to a Powerline Font in iTerm and VS Code, see https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/
 - GitHub Desktop Menu -> Install Command Line Tool
 
-
-
 ## More information
 
 - These contents may be one or more blogposts. As my blog is currently in stealth mode, I leave it here for now.
@@ -171,8 +168,6 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
 - I have to clean up my OneDrive (where is Mastering Laravel Validation Rules? There are several places for Software and Courses) and there is an absolute chaos in my Photos and Videos folders before ...
 - I sync everything to a second place (iCloud, Dropbox, Nextcloud or a Synology NAS, we'll see).
 - I will soon replace the tui script with the following dev script ...
-
-
 
 ## Dev Script (w-i-p)
 
@@ -206,8 +201,6 @@ A starting point would be:
     - Start Helo (depending on .env?)
 
 An alternative would be using Raycast for this.
-
-
 
 ## Inspiration
 

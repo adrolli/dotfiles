@@ -224,6 +224,14 @@ echo '------------------------------------'
 brew install --cask webex-meetings
 echo ' '
 
+echo 'Install Redis - https://redis.com'
+echo '---------------------------------'
+brew install redis
+redis-cli ping
+echo ' '
+echo 'Type redis-server to start Redis'
+echo ' '
+
 echo 'Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/'
 echo '-----------------------------------------------------------------------------------------------'
 git clone https://github.com/powerline/fonts.git
