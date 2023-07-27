@@ -2,10 +2,10 @@
 
 All changes to my .dotfiles will be noted here:
 
-## Next
+## 2023-06-28
 
-- [Laravel Herd](https://formulae.brew.sh/cask/herd#default) replaces PHP Monitor
-- Optional: remove Valet, PHP, Composer, and probably re-install Herd afterwards
+- Remove PHP Monitor, Valet, Composer and PHP
+- Install [Laravel Herd](https://formulae.brew.sh/cask/herd#default) as replacement
 
 ## 2023-05-25
 
