@@ -38,34 +38,9 @@ echo '----------------------------------'
 brew install node
 echo ' '
 
-echo 'Install PHP latest - https://php.net'
+echo 'Install Laravel Herd'
 echo '------------------------------------'
-brew install php
-echo ' '
-
-echo 'Install Composer - https://getcomposer.org'
-echo '------------------------------------------'
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-php composer-setup.php
-php -r "unlink('composer-setup.php');"
-mkdir -p /usr/local/bin
-sudo mv composer.phar /usr/local/bin/composer
-export PATH=$PATH:~/.composer/vendor/bin
-echo ' '
-
-echo 'Install Laravel Valet - https://laravel.com/docs/valet'
-echo '------------------------------------------------------'
-composer global require laravel/valet
-valet install
-sudo valet trust
-echo ' '
-
-echo 'Install PHP Monitor - https://github.com/nicoverbruggen/phpmon'
-echo '--------------------------------------------------------------'
-brew tap nicoverbruggen/homebrew-cask
-brew install --cask phpmon
-sudo chown "$(whoami)" /usr/local/bin
+brew install herd
 echo ' '
 
 echo 'Install Google Chrome - https://www.google.com/chrome'
