@@ -2,6 +2,10 @@
 
 All changes to my .dotfiles will be noted here:
 
+## Next
+
+- [Laravel Herd](https://formulae.brew.sh/cask/herd#default) will replace PHP Monitor (as well as PHP, Composer etc.)
+
 ## 2023-05-25
 
 - Removed all uneccessary comments
