@@ -4,8 +4,13 @@ All changes to my .dotfiles will be noted here:
 
 ## Next
 
-- [Laravel Herd](https://formulae.brew.sh/cask/herd#default) replaces PHP Monitor
-- Optional: remove Valet, PHP, Composer, and probably re-install Herd afterwards
+- Optional: remove Valet (Composer global installed)
+- Optional PHP, Composer and ... installed by Herd? Keep it or not...
+
+## 2023-08-21
+
+- [Laravel Herd](https://formulae.brew.sh/cask/herd#default) replaces PHP Monitor and Valet
+- Changed paths from ~/Documents/GitHub/adrolli/dotfiles to ~/GitHub/dotfiles
 
 ## 2023-05-25
 

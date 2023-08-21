@@ -1,16 +1,16 @@
 # Dotfiles scripts
-alias upd="zsh ~/Documents/GitHub/adrolli/dotfiles/update"
-alias ins="zsh ~/Documents/GitHub/adrolli/dotfiles/install"
-alias bku="zsh ~/Documents/GitHub/adrolli/dotfiles/backup"
-alias ali="open -a typora ~/Documents/GitHub/adrolli/dotfiles/Aliases.md"
-alias key="open -a typora ~/Documents/GitHub/adrolli/dotfiles/Shortcuts.md"
+alias upd="zsh ~/GitHub/dotfiles/update"
+alias ins="zsh ~/GitHub/dotfiles/install"
+alias bku="zsh ~/GitHub/dotfiles/backup"
+alias ali="open -a typora ~/GitHub/dotfiles/Aliases.md"
+alias key="open -a typora ~/GitHub/dotfiles/Shortcuts.md"
 alias tui="source ~/tui"
 alias dev="source ~/dev"
 alias yeah="open -g raycast://confetti"
 
 # Paths
 alias h="cd ~"
-alias gh="cd ~/Documents/GitHub"
+alias gh="cd ~/GitHub"
 alias od="cd ~/OneDrive"
 
 # Apps

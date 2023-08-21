@@ -54,18 +54,9 @@ sudo mv composer.phar /usr/local/bin/composer
 export PATH=$PATH:~/.composer/vendor/bin
 echo ' '
 
-echo 'Install Laravel Valet - https://laravel.com/docs/valet'
-echo '------------------------------------------------------'
-composer global require laravel/valet
-valet install
-sudo valet trust
-echo ' '
-
-echo 'Install PHP Monitor - https://github.com/nicoverbruggen/phpmon'
-echo '--------------------------------------------------------------'
-brew tap nicoverbruggen/homebrew-cask
-brew install --cask phpmon
-sudo chown "$(whoami)" /usr/local/bin
+echo 'Install Laravel Herd - https://herd.laravel.com/'
+echo '------------------------------------------------'
+brew install --cask herd
 echo ' '
 
 echo 'Install Google Chrome - https://www.google.com/chrome'
@@ -247,12 +238,12 @@ echo ' '
 
 echo 'Copy Git config'
 echo '---------------'
-cp ~/Documents/GitHub//adrolli/dotfiles/.gitconfig ~/.gitconfig
+cp ~/GitHub/dotfiles/.gitconfig ~/.gitconfig
 echo ' '
 
 echo 'Copy .zshrc'
 echo '-----------'
-cp ~/Documents/GitHub//adrolli/dotfiles/.zshrc ~/
+cp ~/GitHub/dotfiles/.zshrc ~/
 echo ' '
 
 echo 'Restore config from iCloud'
@@ -263,7 +254,7 @@ echo ' '
 
 echo 'Copy the tui script'
 echo '-------------------'
-cp ~/Documents/GitHub/dotfiles/tui ~/tui
+cp ~/GitHub/dotfiles/tui ~/tui
 echo ' '
 
 open -g raycast://confetti

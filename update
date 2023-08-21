@@ -17,13 +17,6 @@ echo ' '
 sudo -v
 echo ' '
 
-echo 'Stop services'
-echo '-------------'
-brew services stop php
-sudo brew services stop nginx
-sudo brew services stop dnsmasq
-echo ' '
-
 echo 'Self-update Homebrew'
 echo '--------------------'
 brew update
@@ -49,37 +42,24 @@ echo '-------------------------'
 brew list
 echo ' '
 
-echo 'Start services'
-echo '--------------'
-brew services start php
-sudo brew services start nginx
-sudo brew services start dnsmasq
-echo ' '
-
-echo 'Update Laravel Valet'
-echo '--------------------'
-composer global require laravel/valet
-valet install
-echo ' '
-
 echo 'Update Aliases'
 echo '--------------'
-cp ~/Documents/GitHub/adrolli/dotfiles/aliases.zsh ~/.oh-my-zsh/custom
+cp ~/GitHub/dotfiles/aliases.zsh ~/.oh-my-zsh/custom
 echo ' '
 
 echo 'Update Git config'
 echo '-----------------'
-cp ~/Documents/GitHub/adrolli/dotfiles/.gitconfig ~/.gitconfig
+cp ~/GitHub/dotfiles/.gitconfig ~/.gitconfig
 echo ' '
 
 echo 'Update .zshrc'
 echo '-------------'
-cp ~/Documents/GitHub/adrolli/dotfiles/.zshrc ~/
+cp ~/GitHub/dotfiles/.zshrc ~/
 echo ' '
 
 echo 'Update the tui script'
 echo '----------------------'
-cp ~/Documents/GitHub/adrolli/dotfiles/tui ~/tui
+cp ~/GitHub/dotfiles/tui ~/tui
 echo ' '
 
 echo 'Mac Updates? Install using softwareupdate -i [NAME]'
