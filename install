@@ -38,8 +38,8 @@ echo '----------------------------------'
 brew install node
 echo ' '
 
-echo 'Install PHP latest - https://php.net'
-echo '------------------------------------'
+echo 'Install PHP - https://php.net'
+echo '-----------------------------'
 brew install php
 echo ' '
 
