@@ -129,6 +129,7 @@ This is my list of MacOS keyboard shortcuts for:
 
 - <kbd>⌘ Command</kbd> + <kbd>J</kbd> to open integrated terminal, twice to jump to input, if already open
 - <kbd>⇧ Shift</kbd> + <kbd>⌘ Command</kbd> + <kbd>P</kbd> to open the Command Palette
+- <kbd>⌥ Option</kbd> + <kbd>B</kbd> to open a markdown file in Typora
 
 ### More
 
