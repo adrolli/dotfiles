@@ -4,8 +4,13 @@ All changes to my .dotfiles will be noted here:
 
 ## Next
 
-- Optional: remove Valet (Composer global installed)
-- Optional PHP, Composer and ... installed by Herd? Keep it or not...
+- Installed a local MySQL outside DBngin for testing purposes, subject to remove?
+- Remove the tui and all old dev scripts, find a better solution, if neccessary
+
+## 2023-08-29
+
+- Lulu and Adguard added to install script
+- Decided to keep PHP, Composer directly installed for non-Herd things
 
 ## 2023-08-21
 
