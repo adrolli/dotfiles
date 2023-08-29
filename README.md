@@ -90,8 +90,9 @@ This is the software I use on my Mac:
   - [Snagit](https://www.techsmith.com/screen-capture.html)
   - [Webex](https://www.webex.com)
   - [Redis](https://redis.com), type `redis-server` to start Redis
-  - [Lulu](https://formulae.brew.sh/cask/lulu), testing, not added to install script
-  - [AdGuard](https://formulae.brew.sh/cask/adguard), testing, not added to install script
+  - [Lulu](https://formulae.brew.sh/cask/lulu)
+  - [AdGuard](https://formulae.brew.sh/cask/adguard)
+  - [Laravel Herd](https://herd.laravel.com)
 - [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store installls
   - Word
   - Excel
