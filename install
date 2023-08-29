@@ -174,33 +174,33 @@ brew install --cask fontbase
 echo ' '
 
 echo 'Install Fontbase - https://formulae.brew.sh/formula/mysql-client'
-echo '------------------------------------'
+echo '----------------------------------------------------------------'
 brew install --cask mysql-client
 export PATH=$PATH:/opt/homebrew/opt/mysql-client/bin
 echo ' '
 
 echo 'Install Obsidian - https://obsidian.md'
-echo '------------------------------------'
+echo '--------------------------------------'
 brew install --cask obsidian
 echo ' '
 
 echo 'Install Onyx - https://www.titanium-software.fr/en/onyx.html'
-echo '------------------------------------'
+echo '------------------------------------------------------------'
 brew install --cask onyx
 echo ' '
 
 echo 'Install Postman - https://www.postman.com/'
-echo '------------------------------------'
+echo '------------------------------------------'
 brew install --cask postman
 echo ' '
 
 echo 'Install Raindrop - https://raindrop.io/'
-echo '------------------------------------'
+echo '---------------------------------------'
 brew install --cask raindropio
 echo ' '
 
 echo 'Install Snagit - https://www.techsmith.com/screen-capture.html'
-echo '------------------------------------'
+echo '--------------------------------------------------------------'
 brew install --cask snagit
 echo ' '
 
@@ -215,6 +215,16 @@ brew install redis
 redis-cli ping
 echo ' '
 echo 'Type redis-server to start Redis'
+echo ' '
+
+echo 'Install Lulu - https://objective-see.com/products/lulu.html'
+echo '-----------------------------------------------------------'
+brew install --cask lulu
+echo ' '
+
+echo 'Install AdGuard - https://adguard.com/'
+echo '--------------------------------------'
+brew install adguard
 echo ' '
 
 echo 'Install Powerline Font - https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme/'
