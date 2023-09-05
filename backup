@@ -26,7 +26,7 @@ echo ' '
 
 echo 'Create the latest link'
 echo '----------------------'
-rm ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/latest/
+rm -Rf ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/latest/
 ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/${today}/ ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/latest
 echo ' '
 
@@ -35,6 +35,7 @@ echo '------------------------'
 echo ' '
 echo 'Backed up'
 cp -Rfv ~/Library/Preferences ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/${today}/Preferences/ | wc -l
+cp -Rfv ~/Documents/Obsidian\ Vault ~/Library/Mobile\ Documents/com~apple~CloudDocs/MacOS-Backup/${today}/Obsidian/ | wc -l
 echo 'files'
 echo ' '
 
