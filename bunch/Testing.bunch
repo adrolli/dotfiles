@@ -1,0 +1,17 @@
+---
+title: Testing
+menu order: 3
+---
+
+test = ?[
+    Bunching
+] "Choose a test:"
+
+// Open for all Workspaces
+Rechner
+
+// Open depending on Workspace
+<<#${workspace}
+___
+#[Bunching]
+{@space "next display"}

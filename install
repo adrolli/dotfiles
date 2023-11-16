@@ -148,9 +148,24 @@ echo '-----------------------------------------------------'
 brew install --cask invoker
 echo ' '
 
+echo 'Install Invoker from BeyondCode - https://bunchapp.co/'
+echo '-----------------------------------------------------'
+brew install --cask bunch
+echo ' '
+
+echo 'Install Invoker from BeyondCode - https://tunnelblick.net'
+echo '-----------------------------------------------------'
+brew install --cask tunnelblick
+echo ' '
+
 echo 'Install Forklift - https://binarynights.com/'
 echo '--------------------------------------------'
 brew install --cask forklift
+echo ' '
+
+echo 'Install Forklift - https://goodsync.com/'
+echo '--------------------------------------------'
+brew install --cask goodsync
 echo ' '
 
 echo 'Install 1password - https://1password.com'

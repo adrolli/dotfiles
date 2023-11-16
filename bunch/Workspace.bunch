@@ -1,0 +1,80 @@
+---
+title: Workspace
+menu order: 1
+---
+
+workspace = ?[
+    Work
+    Develop
+    heco_Office
+    heco_VPN
+    Finance
+    Procrastinate
+] "Choose your Workspace:"
+
+// Open for all Workspaces
+Obsidian
+Raindrop
+1password
+
+// Open depending on Workspace
+<<#${workspace}
+___
+#[Work]
+Spark Desktop
+Calendars
+// Telephone does not work, why?
+Telephone
+
+#[Develop]
+Spotify
+
+#[heco_Office]
+DisplayLink
+Spark Desktop
+Calendars
+Google Chrome
+- https://heco.de
+- https://heco.in
+- https://heco-gmbh.monday.com/
+Toggl Track
+Slack
+Swyx Desktop
+
+#[heco_VPN]
+Tunnelblick
+* tell application "Tunnelblick" to connect "heco"
+Spark Desktop
+Calendars
+Google Chrome
+- https://heco.de
+- https://heco.in
+- https://heco-gmbh.monday.com/
+Spotify
+Toggl Track
+Slack
+(pause 3)
+Swyx Desktop
+
+#[Finance]
+Google Chrome
+- https://www.sparkasse-karlsruhe.de/de/home/onlinebanking/finanzstatus.html
+- https://www.elster.de/eportal/login/softpse
+ForkLift
+- ~/Library/CloudStorage/OneDrive-AlfDrollinger/Finance
+- {tab}
+- ~/Library/CloudStorage/OneDrive-Persönlich/Fibu
+Microsoft Excel
+Rechner
+Adobe Acrobat
+
+#[Procrastinate]
+Spark Desktop
+Calendars
+%Google Chrome
+- https://raindrop.io/adrolli/laraverse-38348378/search/sort=-created&perpage=30&page=0
+- https://laravel-news.com
+- https://laravel-daily.com
+ForkLift
+- ~/Library/CloudStorage/OneDrive-Persönlich/Software/Courses
+Spotify

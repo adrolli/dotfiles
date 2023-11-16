@@ -30,6 +30,15 @@ This is my list of MacOS keyboard shortcuts for:
 - <kbd>⌘ Command</kbd> + <kbd>X</kbd> to Cut and <kbd>⌘ Command</kbd> + <kbd>⌥ Option</kbd> + <kbd>V</kbd> to Paste a file in Finder
 - <kbd>⌘ Command</kbd> + <kbd>⌥ Option</kbd> + <kbd>Esc</kbd> to force close apps even if frozen
 
+## Bunches
+
+Switching Workspaces and Projects like a boss.
+
+- <kbd>^ Control</kbd> + <kbd>^</kbd>
+
+1. Projects - Select a project, starts VS Code, iTerm, NPM, Chrome and many more
+2. Workspaces - Select a workspace (Office, Remote VPN, Island or special focus)
+
 ### Screenshots
 
 - <kbd>⇧ Shift</kbd> + <kbd>⌘ Command</kbd> + <kbd>3</kbd> to make a full size screenshot

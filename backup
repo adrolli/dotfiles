@@ -40,3 +40,34 @@ echo 'files'
 echo ' '
 
 open -g raycast://confetti
+
+# Raycast
+Library/Preferences/com.raycast.macos.plist
+
+# MacOSX
+.MacOSX
+Library/KeyBindings/DefaultKeyBinding.dict
+Library/PDF Services
+Library/Preferences/com.apple.symbolichotkeys.plist
+Library/Scripts
+Library/Speech/Speakable Items
+Library/Workflows
+
+# Adobe
+Library/Preferences/com.adobe.Photoshop.plist
+/Library/Application Support/Adobe
+
+# Tunnelblick
+/Library/Application Support/Tunnelblick
+
+# Teamviewer
+/Library/Application Support/Teamviewer
+
+# Forklift ... Sync
+
+# GitHub Desktop
+
+# Chrome    
+
+# Goodsync
+
