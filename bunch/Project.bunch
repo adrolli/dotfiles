@@ -28,7 +28,7 @@ iTerm
 GitHub Desktop
 - {@t "laraverse" return}
 Typora
-- ~/Herd/laraverse
+- ~/Herd/laraverse/
 TablePlus
 - {@t "laraverse" return}
 Tinkerwell
@@ -46,7 +46,7 @@ iTerm
 GitHub Desktop
 - {@t "tallui" return}
 Typora
-- ~/Herd/tallui
+- ~/Herd/tallui/
 TablePlus
 - {@t "tallui" return}
 Google Chrome
@@ -54,14 +54,14 @@ Google Chrome
 
 #[Moox]
 Visual Studio Code
-- ~/Herd/moox
+- ~/Herd/moox/
 iTerm
 - {"cd ~/Herd/moox" return "npm run dev" return}
 - {@t "cd ~/Herd/moox" return}
 GitHub Desktop
 - {@t "moox" return}
 Typora
-- ~/Herd/moox
+- ~/Herd/moox/
 TablePlus
 - {@t "moox" return}
 Google Chrome
@@ -69,14 +69,14 @@ Google Chrome
 
 #[heco_Intra]
 Visual Studio Code
-- ~/Herd/heco_intra
+- ~/Herd/heco_intra/
 iTerm
 - {"cd ~/Herd/heco_intra" return "npm run dev" return}
 - {@t "cd ~/Herd/heco_intra" return}
 GitHub Desktop
 - {@t "heco_intra" return}
 Typora
-- ~/Herd/heco_intra
+- ~/Herd/heco_intra/
 TablePlus
 - {@t "heco_intra" return}
 Google Chrome
@@ -84,14 +84,14 @@ Google Chrome
 
 #[heco_Web]
 Visual Studio Code
-- ~/Herd/heco_web
+- ~/Herd/heco_web/
 iTerm
 - {"cd ~/Herd/heco_web" return "npm run dev" return}
 - {@t "cd ~/Herd/heco_web" return}
 GitHub Desktop
 - {@t "heco_web" return}
 Typora
-- ~/Herd/heco_web
+- ~/Herd/heco_web/
 TablePlus
 - {@t "heco_web" return}
 Google Chrome
@@ -99,14 +99,14 @@ Google Chrome
 
 #[heco_Webapps]
 Visual Studio Code
-- ~/Herd/hecowebapps
+- ~/Herd/hecowebapps/
 iTerm
 - {"cd ~/Herd/hecowebapps" return "npm run dev" return}
 - {@t "cd ~/Herd/hecowebapps" return}
 GitHub Desktop
 - {@t "hecowebapps" return}
 Typora
-- ~/Herd/hecowebapps
+- ~/Herd/hecowebapps/
 TablePlus
 - {@t "hecowebapps" return}
 Google Chrome
@@ -114,14 +114,14 @@ Google Chrome
 
 #[MySmartSchool]
 Visual Studio Code
-- ~/Herd/mysmartschool
+- ~/Herd/mysmartschool/
 iTerm
 - {"cd ~/Herd/mysmartschool" return "npm run dev" return}
 - {@t "cd ~/Herd/mysmartschool" return}
 GitHub Desktop
 - {@t "mysmartschool" return}
 Typora
-- ~/Herd/mysmartschool
+- ~/Herd/mysmartschool/
 TablePlus
 - {@t "mysmartschool" return}
 Google Chrome
@@ -129,9 +129,9 @@ Google Chrome
 
 #[Dotfiles]
 Visual Studio Code
-- ~/GitHub/dotfiles
+- ~/GitHub/dotfiles/
 Typora
-- ~/GitHub/dotfiles
+- ~/GitHub/dotfiles/
 GitHub Desktop
 - {@t "dotfiles" return}
 iTerm
