@@ -11,7 +11,7 @@ test = ?[
 Rechner
 
 // Open depending on Workspace
-<<#${workspace}
+<<#${test}
 ___
 #[Bunching]
 {@space "next display"}

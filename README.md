@@ -95,6 +95,7 @@ This is the software I use on my Mac:
   - [Tunnelblick](https://tunnelblick.net/)
   - [Bunch](https://bunchapp.co/)
   - [GoodSync](https://www.goodsync.com/)
+  - [Bartender](https://macbartender.com/)
 - [Microsoft 365](https://www.microsoft.com/de-de/microsoft-365/) from App Store installls
   - Word
   - Excel
@@ -178,9 +179,8 @@ Using the backup-script, all preferences should be backed up in iCloud or manage
   - Adobe Cloud
   - iDrive e2, a S3 compatible storage
   - SFTP Servers
-- I currently made the switch from Microsoft Outlook to Spark and Calendars from Readdle. Besides Microsoft Outlook not supporting Exchange (On Premise) there some other things the are just soooo much better. Spark does exactly everything like I want. It was a breeze to connect my accounts and it is a big step towards productivity. I did not use  my Outlook Calendar that much, mostly beeing invited to meetings. Maybe it will become much better with Calendars, because of that "Plan my day" feature.
+- I currently made the switch from Microsoft Outlook to Spark and Calendars from Readdle. Besides Microsoft Outlook not supporting Exchange (On Premise) there some other things the are just soooo much better. Spark does exactly everything like I want. It was a breeze to connect my accounts and it is a big step towards productivity. I did not use my Outlook Calendar that much, mostly beeing invited to meetings. Maybe it will become much better with Calendars, because of that "Plan my day" feature.
 - I currently test Bartender to get back a sorted Mac Menu Bar again. Seems to be exactly what I want, even if it comes a bit pricey.
-
 
 ## Inspiration
 
