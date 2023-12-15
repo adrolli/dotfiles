@@ -57,7 +57,7 @@ This is the software I use on my Mac:
 - as well as everything [Homebrew](https://brew.sh/)
   - [Chrome](https://www.google.com/chrome)
   - [Typora](https://www.google.com/chrome)
-  - [PHP](https://php.net)
+  - [PHP](https://php.net) with Xdebug
   - [Laravel Herd](https://herd.laravel.com/)
   - [DBngin](https://dbngin.com)
   - [TablePlus](https://tableplus.com)
