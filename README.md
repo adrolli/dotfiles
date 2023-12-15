@@ -44,6 +44,8 @@ bash install
 
 This will install Homebrew and a lot of Software from PHP to VS Code and Github Desktop.
 
+To activate xdebug follow https://herd.laravel.com/docs/1/advanced-usage/xdebug#activating-xdebug
+
 ## Software
 
 This is the software I use on my Mac:
