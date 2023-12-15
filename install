@@ -43,6 +43,17 @@ echo '-----------------------------'
 brew install php
 echo ' '
 
+echo 'Fix Pecl - https://patriqueouimet.ca/tip/installing-php-and-pecl-extensions-on-macos'
+echo '-----------------------------'
+mkdir -p /opt/homebrew/lib/php/pecl/20230831
+echo ' '
+
+echo 'Pecl install xdebug'
+echo '-----------------------------'
+pecl install xdebug
+echo ' '
+
+
 echo 'Install Composer - https://getcomposer.org'
 echo '------------------------------------------'
 brew install composer
