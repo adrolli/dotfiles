@@ -53,7 +53,6 @@ echo '-----------------------------'
 pecl install xdebug
 echo ' '
 
-
 echo 'Install Composer - https://getcomposer.org'
 echo '------------------------------------------'
 brew install composer

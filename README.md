@@ -46,6 +46,11 @@ This will install Homebrew and a lot of Software from PHP to VS Code and Github 
 
 To activate xdebug follow https://herd.laravel.com/docs/1/advanced-usage/xdebug#activating-xdebug
 
+```
+zend_extension=/opt/homebrew/lib/php/pecl/20230831/xdebug.so
+xdebug.mode=debug
+```
+
 ## Software
 
 This is the software I use on my Mac:
