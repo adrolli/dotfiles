@@ -1,6 +1,6 @@
 ---
 title: Project
-menu order: 2
+menu order: 3
 ---
 
 project = ?[
@@ -35,7 +35,10 @@ Tinkerwell
 Helo
 Ray
 Google Chrome
-- https://laraverse.dev
+- https://laraverse.test
+- https://laraverse.test/admin
+- https://github.com/adrolli/laraverse/
+- https://raindrop.io/adrolli/laraverse-38348378/search/sort=-created&perpage=30&page=0
 
 #[TallUI]
 Visual Studio Code
@@ -50,7 +53,7 @@ Typora
 TablePlus
 - {@t "tallui" return}
 Google Chrome
-- https://tallui.dev
+- https://tallui.test
 
 #[Moox]
 Visual Studio Code
@@ -65,7 +68,7 @@ Typora
 TablePlus
 - {@t "moox" return}
 Google Chrome
-- https://moox.dev
+- https://moox.test
 
 #[heco_Intra]
 Visual Studio Code
@@ -80,7 +83,7 @@ Typora
 TablePlus
 - {@t "heco_intra" return}
 Google Chrome
-- https://heco_intra.dev
+- https://heco_intra.test
 
 #[heco_Web]
 Visual Studio Code
@@ -95,7 +98,7 @@ Typora
 TablePlus
 - {@t "heco_web" return}
 Google Chrome
-- https://heco_web.dev
+- https://heco_web.test
 
 #[heco_Webapps]
 Visual Studio Code
@@ -110,7 +113,7 @@ Typora
 TablePlus
 - {@t "hecowebapps" return}
 Google Chrome
-- https://hecowebapps.dev
+- https://hecowebapps.test
 
 #[MySmartSchool]
 Visual Studio Code
@@ -125,7 +128,7 @@ Typora
 TablePlus
 - {@t "mysmartschool" return}
 Google Chrome
-- https://mysmartschool.dev
+- https://mysmartschool.test
 
 #[Dotfiles]
 Visual Studio Code

@@ -1,17 +1,13 @@
 ---
 title: Testing
-menu order: 3
+menu order: 4
 ---
 
-test = ?[
-    Bunching
-] "Choose a test:"
-
-// Open for all Workspaces
+// Controlling windows with Raycast does not work
 Rechner
+{@space}
+[next display]
 
-// Open depending on Workspace
-<<#${test}
-___
-#[Bunching]
-{@space "next display"}
+// Telephone does not work either
+Telephone
+
