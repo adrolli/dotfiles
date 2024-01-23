@@ -40,21 +40,6 @@ Google Chrome
 - https://github.com/adrolli/laraverse/
 - https://raindrop.io/adrolli/laraverse-38348378/search/sort=-created&perpage=30&page=0
 
-#[TallUI]
-Visual Studio Code
-- ~/Herd/tallui/
-iTerm
-- {"cd ~/Herd/tallui" return "npm run dev" return}
-- {@t "cd ~/Herd/tallui" return}
-GitHub Desktop
-- {@t "tallui" return}
-Typora
-- ~/Herd/tallui/
-TablePlus
-- {@t "tallui" return}
-Google Chrome
-- https://tallui.test
-
 #[Moox]
 Visual Studio Code
 - ~/Herd/moox/
