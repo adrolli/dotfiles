@@ -137,8 +137,10 @@ Switching Workspaces and Projects like a boss.
 ## VS Code
 
 - <kbd>⌘ Command</kbd> + <kbd>J</kbd> to open integrated terminal, twice to jump to input, if already open
-- <kbd>⇧ Shift</kbd> + <kbd>⌘ Command</kbd> + <kbd>P</kbd> to open the Command Palette
+- <kbd>⌘ Command</kbd> + <kbd>P</kbd> to open the Command Palette
 - <kbd>⌥ Option</kbd> + <kbd>B</kbd> to open a markdown file in Typora
+- <kbd>⌘ Command</kbd> + <kbd>K</kbd> + <kbd>C</kbd>  to commend multiple lines
+- <kbd>⌘ Command</kbd> + <kbd>K</kbd> + <kbd>U</kbd>  to uncommend multiple lines
 
 ### More
 
